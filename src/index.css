@@ -24,11 +24,22 @@
   }
 
   .btn {
-    @apply bg-transparent text-gaming-red border-2 border-gaming-red px-6 py-3 font-semibold rounded-lg uppercase tracking-wider transition-all duration-300 shadow-[0_0_10px_rgba(239,68,68,0.2)];
+    @apply bg-transparent text-gaming-red border-2 border-gaming-red px-6 py-3 font-semibold rounded-lg uppercase tracking-wider shadow-[0_0_10px_rgba(239,68,68,0.2)];
+    /* No transition-all on mobile — prevents stuck state */
+    transition: background-color 0.15s, color 0.15s, box-shadow 0.15s;
   }
 
-  .btn:hover:not(:disabled) {
-    @apply bg-gaming-red text-black shadow-[0_0_20px_rgba(239,68,68,0.8)] -translate-y-1;
+  /* Hover only fires on real pointer devices (mouse). Never on touchscreens. */
+  @media (hover: hover) and (pointer: fine) {
+    .btn:hover:not(:disabled) {
+      @apply bg-gaming-red text-black shadow-[0_0_20px_rgba(239,68,68,0.8)] -translate-y-1;
+    }
+  }
+
+  /* Active state for touch feedback — releases immediately on finger lift */
+  .btn:active:not(:disabled) {
+    @apply bg-gaming-red text-black;
+    transform: scale(0.97);
   }
 
   .btn:disabled {
