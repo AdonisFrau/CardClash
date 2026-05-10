@@ -77,15 +77,16 @@ io.on('connection', (socket) => {
   socket.on('createRoom', (playerName, callback) => {
     const roomCode = generateRoomCode();
     rooms[roomCode] = {
-      players: [{ id: socket.id, name: playerName, hand: [], isBossMode: false }],
+      players: [{ id: socket.id, name: playerName, hand: [], isBossMode: false, isBot: false }],
       deck: generateDeck(),
       discardPile: [],
       turnIndex: 0,
       direction: 1,
       started: false,
-      drawPenalty: 0, // Stacking +2 / +4
+      drawPenalty: 0,
       roundCounter: 0,
-      playsThisRound: 0
+      playsThisRound: 0,
+      botDifficulty: 'middle'
     };
     socket.join(roomCode);
     callback({ success: true, roomCode });
@@ -107,15 +108,54 @@ io.on('connection', (socket) => {
       finalName = `${playerName}${Math.floor(1000 + Math.random() * 9000)}`;
     }
 
-    room.players.push({ id: socket.id, name: finalName, hand: [], isBossMode: false });
+    room.players.push({ id: socket.id, name: finalName, hand: [], isBossMode: false, isBot: false });
     socket.join(roomCode);
     callback({ success: true, roomCode, name: finalName });
     io.to(roomCode).emit('roomUpdate', room);
   });
 
+  socket.on('setBotDifficulty', ({ roomCode, difficulty }) => {
+    const room = rooms[roomCode];
+    if (room && room.players[0].id === socket.id) { // Host check
+       room.botDifficulty = difficulty;
+       io.to(roomCode).emit('roomUpdate', room);
+    }
+  });
+
+  socket.on('addBot', ({ roomCode }) => {
+    const room = rooms[roomCode];
+    if (room && room.players.length < 9 && room.players[0].id === socket.id && !room.started) {
+       const botNames = ['John', 'Shadow', 'Slayer', 'Pro', 'Noob', 'Gamer', 'Bot', 'Destroyer', 'Ghost'];
+       const botAdjs = ['Graveyard', 'Fire', 'Ice', 'Neon', 'Void', 'Steel', 'Iron', 'Plasma', 'Cyber'];
+       const finalName = `${botNames[Math.floor(Math.random()*botNames.length)]}+${botAdjs[Math.floor(Math.random()*botAdjs.length)]}+${Math.floor(100+Math.random()*899)}`;
+       
+       room.players.push({
+         id: `bot-${Math.random().toString(36).substr(2, 9)}`,
+         name: finalName,
+         hand: [],
+         isBossMode: false,
+         isBot: true
+       });
+       io.to(roomCode).emit('roomUpdate', room);
+    }
+  });
+
+  socket.on('removeBot', ({ roomCode, botId }) => {
+    const room = rooms[roomCode];
+    if (room && room.players[0].id === socket.id && !room.started) {
+       room.players = room.players.filter(p => p.id !== botId);
+       io.to(roomCode).emit('roomUpdate', room);
+    }
+  });
+
   socket.on('startGame', (roomCode) => {
     const room = rooms[roomCode];
     if (!room) return;
+    
+    if (room.players.length < 2) {
+       socket.emit('gameError', 'Need at least 2 players (or bots) to start.');
+       return;
+    }
     
     room.started = true;
     
@@ -133,6 +173,11 @@ io.on('connection', (socket) => {
 
     io.to(roomCode).emit('gameState', getPublicGameState(room));
     io.to(roomCode).emit('gameStarted');
+    
+    // If bot is first player
+    if (room.players[0].isBot) {
+        setTimeout(() => handleBotTurn(room, room.players[0], io, roomCode), 2000);
+    }
   });
 
   socket.on('playCard', ({ roomCode, cardIndex }) => {
@@ -174,23 +219,23 @@ io.on('connection', (socket) => {
       // Handle special card effects
       if (playedCard.isSpecial) {
         if (playedCard.name === "Block") {
-          nextTurn(room, 2); // Skip next player
+          nextTurn(room, 2, io, roomCode); // Skip next player
         } else if (playedCard.name === "Loopback") {
           room.direction *= -1;
           if (room.players.length === 2) {
-            nextTurn(room, 0); // Acts as a block in 2 player
+            nextTurn(room, 0, io, roomCode); // Acts as a block in 2 player
           } else {
-            nextTurn(room, 1);
+            nextTurn(room, 1, io, roomCode);
           }
         } else if (playedCard.name === "+2") {
           room.drawPenalty += 2;
-          nextTurn(room, 1);
+          nextTurn(room, 1, io, roomCode);
         } else if (playedCard.name === "+4") {
           room.drawPenalty += 4;
-          nextTurn(room, 1);
+          nextTurn(room, 1, io, roomCode);
         }
       } else {
-        nextTurn(room, 1);
+        nextTurn(room, 1, io, roomCode);
       }
 
       // Check win condition
@@ -218,7 +263,7 @@ io.on('connection', (socket) => {
         topCardPower: topCard.powerlevel
       });
 
-      nextTurn(room, 1);
+      nextTurn(room, 1, io, roomCode);
     }
 
     io.to(roomCode).emit('gameState', getPublicGameState(room));
@@ -239,7 +284,7 @@ io.on('connection', (socket) => {
       drawCards(room, player, 3); // Normal draw penalty if no card can beat
     }
     
-    nextTurn(room, 1);
+    nextTurn(room, 1, io, roomCode);
     io.to(roomCode).emit('gameState', getPublicGameState(room));
   });
 
@@ -274,7 +319,7 @@ function drawCards(room, player, amount) {
   }
 }
 
-function nextTurn(room, steps) {
+function nextTurn(room, steps, io, roomCode) {
   room.playsThisRound += 1;
   room.turnIndex = (room.turnIndex + (room.direction * steps)) % room.players.length;
   if (room.turnIndex < 0) room.turnIndex += room.players.length;
@@ -286,6 +331,106 @@ function nextTurn(room, steps) {
         room.discardPile.push(room.deck.pop());
      }
   }
+
+  // Handle bot turn
+  const activePlayer = room.players[room.turnIndex];
+  if (activePlayer.isBot && io && roomCode) {
+     // Delay 1 to 9 seconds
+     const delay = Math.floor(Math.random() * 8000) + 1000;
+     setTimeout(() => {
+        handleBotTurn(room, activePlayer, io, roomCode);
+     }, delay);
+  }
+}
+
+function handleBotTurn(room, botPlayer, io, roomCode) {
+    if (!room.started) return;
+    const playerIndex = room.players.findIndex(p => p.id === botPlayer.id);
+    if (playerIndex !== room.turnIndex) return; // Wait, somehow turn skipped?
+
+    const topCard = room.discardPile[room.discardPile.length - 1];
+
+    // Find valid cards
+    let validCards = botPlayer.hand.map((card, index) => {
+        let isValid = false;
+        if (card.isSpecial) {
+           if (card.type === topCard.type || (topCard.isSpecial && topCard.name === card.name)) isValid = true;
+        } else {
+           if (topCard.isSpecial) {
+               if (card.type === topCard.type) isValid = true;
+           } else {
+               if (card.powerlevel > topCard.powerlevel) isValid = true;
+           }
+        }
+        return { card, index, isValid };
+    }).filter(c => c.isValid);
+
+    if (validCards.length > 0) {
+        // Safest option: sort by powerlevel asc (for normal cards)
+        validCards.sort((a, b) => {
+            if (a.card.isSpecial) return 1; // save specials for later
+            if (b.card.isSpecial) return -1;
+            return a.card.powerlevel - b.card.powerlevel;
+        });
+
+        let chosenIndex = validCards[0].index;
+        const difficulty = room.botDifficulty || 'middle';
+        
+        // Mistake logic
+        let mistakeChance = 0;
+        if (difficulty === 'soft') mistakeChance = 0.4;
+        else if (difficulty === 'middle') mistakeChance = 0.2;
+        
+        if (Math.random() < mistakeChance) {
+            // Mistake: pick a random valid card instead of the safest
+            chosenIndex = validCards[Math.floor(Math.random() * validCards.length)].index;
+        }
+
+        // Play the card
+        const playedCard = botPlayer.hand[chosenIndex];
+        botPlayer.hand.splice(chosenIndex, 1);
+        room.discardPile.push(playedCard);
+
+        if (playedCard.isSpecial) {
+          if (playedCard.name === "Block") nextTurn(room, 2, io, roomCode);
+          else if (playedCard.name === "Loopback") {
+            room.direction *= -1;
+            if (room.players.length === 2) nextTurn(room, 0, io, roomCode);
+            else nextTurn(room, 1, io, roomCode);
+          } else if (playedCard.name === "+2") {
+            room.drawPenalty += 2;
+            nextTurn(room, 1, io, roomCode);
+          } else if (playedCard.name === "+4") {
+            room.drawPenalty += 4;
+            nextTurn(room, 1, io, roomCode);
+          }
+        } else {
+          nextTurn(room, 1, io, roomCode);
+        }
+
+        // Bot Boss Mode trigger
+        if (botPlayer.hand.length === 1 && !botPlayer.isBossMode) {
+            botPlayer.isBossMode = true;
+            io.to(roomCode).emit('bossModeActivated', botPlayer.name);
+        }
+
+        if (botPlayer.hand.length === 0) {
+            if (botPlayer.isBossMode) io.to(roomCode).emit('gameOver', { winner: botPlayer.name });
+            else drawCards(room, botPlayer, 2);
+        }
+
+    } else {
+        // No valid cards, MUST draw
+        if (room.drawPenalty > 0) {
+          drawCards(room, botPlayer, room.drawPenalty);
+          room.drawPenalty = 0;
+        } else {
+          drawCards(room, botPlayer, 3);
+        }
+        nextTurn(room, 1, io, roomCode);
+    }
+
+    io.to(roomCode).emit('gameState', getPublicGameState(room));
 }
 
 function getPublicGameState(room) {
@@ -295,13 +440,14 @@ function getPublicGameState(room) {
       name: p.name,
       cardCount: p.hand.length,
       isBossMode: p.isBossMode,
-      hand: p.hand // ONLY sent back to specific user in real app, but for now we broadcast. 
-      // ACTUALLY, we should hide hands for opponents. We will let the frontend filter it for simplicity.
+      isBot: p.isBot,
+      hand: p.hand 
     })),
     topCard: room.discardPile[room.discardPile.length - 1],
     turnIndex: room.turnIndex,
     direction: room.direction,
-    drawPenalty: room.drawPenalty
+    drawPenalty: room.drawPenalty,
+    botDifficulty: room.botDifficulty || 'middle'
   };
 }
 

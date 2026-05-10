@@ -11,6 +11,7 @@ export interface Player {
   name: string;
   cardCount: number;
   isBossMode: boolean;
+  isBot?: boolean;
   hand?: GameCardType[]; // only for self
 }
 
@@ -20,4 +21,5 @@ export interface GameState {
   turnIndex: number;
   direction: number;
   drawPenalty: number;
+  botDifficulty?: 'soft' | 'middle' | 'hard';
 }

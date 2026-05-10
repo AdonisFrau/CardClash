@@ -17,3 +17,7 @@
 - [x] Card Animations & Remove White Stroke
 - [x] Header with Player List & Turn Cursor
 - [x] Power Level Fail Pop-up
+- [x] Bot Module: Backend AI Logic (Safest vs Mistake)
+- [x] Bot Module: 1-9s Play Delay & Auto-boss mode
+- [x] Bot Module: Lobby UI (Add/Remove Bots, Difficulty Selector)
+- [x] Block Game Start if Players < 2

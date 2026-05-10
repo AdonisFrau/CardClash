@@ -16,7 +16,7 @@ function App() {
   const [appState, setAppState] = useState<AppState>('menu');
   const [playerName, setPlayerName] = useState('');
   const [roomCode, setRoomCode] = useState<string | null>(null);
-  const [players, setPlayers] = useState<{ name: string }[]>([]);
+  const [players, setPlayers] = useState<{id: string, name: string, isBot?: boolean}[]>([]);
   const [isHost, setIsHost] = useState(false);
   const [gameState, setGameState] = useState<GameState | null>(null);
   const [winner, setWinner] = useState<string | null>(null);
@@ -70,14 +70,14 @@ function App() {
   const handleSelectMode = (mode: 'solo' | 'multiplayer', name: string) => {
     setPlayerName(name);
     if (mode === 'solo') {
-      // For solo, we just create a room and pretend we are multiplayer but maybe we can add a bot later
-      // The prompt says "Solo: Mock multiplayer by running a local game loop."
-      // Let's just create a room and start
       socket?.emit('createRoom', name, (res: any) => {
-        if (res.success) {
-          setRoomCode(res.roomCode);
-          setIsHost(true);
-          setAppState('lobby');
+        if(res.success) {
+           setRoomCode(res.roomCode);
+           setIsHost(true);
+           setAppState('lobby');
+           socket?.emit('addBot', { roomCode: res.roomCode });
+           socket?.emit('addBot', { roomCode: res.roomCode });
+           socket?.emit('addBot', { roomCode: res.roomCode });
         }
       });
     } else {
@@ -118,13 +118,17 @@ function App() {
 
   if (appState === 'lobby') {
     return (
-      <Lobby
-        roomCode={roomCode}
-        players={players}
+      <Lobby 
+        roomCode={roomCode} 
+        players={players} 
         isHost={isHost}
+        botDifficulty={gameState?.botDifficulty || 'middle'}
         onCreateRoom={handleCreateRoom}
         onJoinRoom={handleJoinRoom}
         onStartGame={handleStartGame}
+        onAddBot={() => socket?.emit('addBot', { roomCode })}
+        onRemoveBot={(botId) => socket?.emit('removeBot', { roomCode, botId })}
+        onSetDifficulty={(difficulty) => socket?.emit('setBotDifficulty', { roomCode, difficulty })}
       />
     );
   }

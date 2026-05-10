@@ -2,14 +2,21 @@ import React, { useState } from 'react';
 
 interface LobbyProps {
   roomCode: string | null;
-  players: { name: string }[];
+  players: { id: string; name: string; isBot?: boolean }[];
   onCreateRoom: () => void;
   onJoinRoom: (code: string) => void;
   onStartGame: () => void;
   isHost: boolean;
+  botDifficulty?: 'soft' | 'middle' | 'hard';
+  onAddBot?: () => void;
+  onRemoveBot?: (id: string) => void;
+  onSetDifficulty?: (diff: string) => void;
 }
 
-export const Lobby: React.FC<LobbyProps> = ({ roomCode, players, onCreateRoom, onJoinRoom, onStartGame, isHost }) => {
+export const Lobby: React.FC<LobbyProps> = ({ 
+  roomCode, players, onCreateRoom, onJoinRoom, onStartGame, isHost, 
+  botDifficulty, onAddBot, onRemoveBot, onSetDifficulty 
+}) => {
   const [joinCode, setJoinCode] = useState('');
 
   if (roomCode) {
@@ -25,17 +32,49 @@ export const Lobby: React.FC<LobbyProps> = ({ roomCode, players, onCreateRoom, o
               <span className="text-gray-500">{players.length}/10</span>
             </h3>
             <ul className="space-y-2">
-              {players.map((p, idx) => (
-                <li key={idx} className="text-white font-semibold flex items-center gap-2">
-                  <div className="w-2 h-2 rounded-full bg-gaming-red shadow-[0_0_5px_#ef4444]"></div>
-                  {p.name}
+              {players.map((p) => (
+                <li key={p.id} className="text-white font-semibold flex items-center justify-between">
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 rounded-full bg-gaming-red shadow-[0_0_5px_#ef4444]"></div>
+                    {p.name} {p.isBot && <span className="text-[10px] bg-red-900/50 text-red-300 px-1 rounded ml-1">BOT</span>}
+                  </div>
+                  {isHost && p.isBot && (
+                    <button onClick={() => onRemoveBot && onRemoveBot(p.id)} className="text-xs text-red-500 hover:text-red-300 px-2 py-1">Kick</button>
+                  )}
                 </li>
               ))}
             </ul>
           </div>
           
+          {isHost && (
+            <div className="mb-8 flex gap-2">
+              <button 
+                className="btn flex-1 text-sm py-2" 
+                onClick={onAddBot} 
+                disabled={players.length >= 9}
+              >
+                + Add Bot
+              </button>
+              <select 
+                className="input-field bg-black text-sm"
+                value={botDifficulty}
+                onChange={(e) => onSetDifficulty && onSetDifficulty(e.target.value)}
+              >
+                <option value="soft">Soft Bot</option>
+                <option value="middle">Mid Bot</option>
+                <option value="hard">Hard Bot</option>
+              </select>
+            </div>
+          )}
+          
           {isHost ? (
-            <button className="btn w-full" onClick={onStartGame}>Start Game</button>
+            <button 
+              className="btn w-full" 
+              onClick={onStartGame}
+              disabled={players.length < 2}
+            >
+              {players.length < 2 ? "Need 2+ Players" : "Start Game"}
+            </button>
           ) : (
             <div className="text-gaming-red animate-pulse font-bold tracking-widest uppercase text-sm">Waiting for host to start...</div>
           )}
