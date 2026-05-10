@@ -1,0 +1,19 @@
+# NewGen Royale - Progress Tracker
+
+- [ ] Setup Server Dependencies
+- [ ] Setup Client Dependencies
+- [ ] Backend Server WebSocket Initialization
+- [ ] Load Characters.json and generate Deck
+- [ ] Multiplayer Room System (Create / Join)
+- [x] Frontend: Main Menu & Lobby
+- [x] Frontend: Game Board & Card UI
+- [x] Game Logic: Card Power Validation
+- [ ] Game Logic: Turn Handling & Stacking Draws
+- [ ] Game Logic: Round Reset
+- [ ] Game Logic: Final Boss Mode
+- [x] Polish: Gamified Dark Mode Aesthetics
+- [x] Install Tailwind & Framer Motion
+- [x] Red & Black Gaming Theme
+- [x] Card Animations & Remove White Stroke
+- [x] Header with Player List & Turn Cursor
+- [x] Power Level Fail Pop-up

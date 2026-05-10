@@ -1,0 +1,1993 @@
+[
+    {
+        "name": "Goku",
+        "img": "/img/Goku.jpg",
+        "powerlevel": 950000,
+        "type": "Anime"
+    },
+    {
+        "name": "Naruto Uzumaki",
+        "img": "/img/Naruto.jpg",
+        "powerlevel": 8500,
+        "type": "Anime"
+    },
+    {
+        "name": "Lion",
+        "img": "/img/Lion.jpeg",
+        "powerlevel": 670,
+        "type": "Animals"
+    },
+    {
+        "name": "Bald Eagle",
+        "img": "/img/BaldEagle.jpeg",
+        "powerlevel": 120,
+        "type": "Animals"
+    },
+    {
+        "name": "Taylor Swift",
+        "img": "/img/TylerSwift.jpeg",
+        "powerlevel": 212,
+        "type": "Celebrities"
+    },
+    {
+        "name": "Dwayne Johnson",
+        "img": "/img/TheRock.jpeg",
+        "powerlevel": 455,
+        "type": "Celebrities"
+    },
+    {
+        "name": "Japan",
+        "img": "/img/japan.png",
+        "powerlevel": 80500,
+        "type": "Countries"
+    },
+    {
+        "name": "Brazil",
+        "img": "/img/Brazil.png",
+        "powerlevel": 76500,
+        "type": "Countries"
+    },
+    {
+        "name": "Barack Obama",
+        "img": "/img/Obama.jpeg",
+        "powerlevel": 370,
+        "type": "Politicians"
+    },
+    {
+        "name": "Angela Merkel",
+        "img": "/img/Angela.jpg",
+        "powerlevel": 223,
+        "type": "Politicians"
+    },
+    {
+        "name": "Sherlock Holmes",
+        "img": "/img/Sherlock.jpeg",
+        "powerlevel": 325,
+        "type": "Other"
+    },
+    {
+        "name": "Santa Claus",
+        "img": "/img/Santa.jpg",
+        "powerlevel": 1200,
+        "type": "Other"
+    },
+    {
+        "name": "SpongeBob SquarePants",
+        "img": "/img/Spongebob.jpeg",
+        "powerlevel": 22,
+        "type": "Cartoons"
+    },
+    {
+        "name": "Bugs Bunny",
+        "img": "/img/BugsBunny.jpeg",
+        "powerlevel": 54,
+        "type": "Cartoons"
+    },
+    { "name": "Vegeta", "img": "/img/Vegeta.jpg", "powerlevel": 92000, "type": "Anime" },
+    { "name": "Gohan", "img": "/img/Gohan.jpg", "powerlevel": 70000, "type": "Anime" },
+    { "name": "Trunks", "img": "/img/Trunks.jpg", "powerlevel": 41000, "type": "Anime" },
+    { "name": "Piccolo", "img": "/img/Piccolo.jpg", "powerlevel": 32000, "type": "Anime" },
+    { "name": "Frieza", "img": "/img/Frieza.jpg", "powerlevel": 80000, "type": "Anime" },
+    { "name": "Cell", "img": "/img/Cell.jpg", "powerlevel": 76000, "type": "Anime" },
+    { "name": "Majin Buu", "img": "/img/Majin_Buu.jpg", "powerlevel": 61000, "type": "Anime" },
+    { "name": "Beerus", "img": "/img/Beerus.jpg", "powerlevel": 90000, "type": "Anime" },
+    { "name": "Whis", "img": "/img/Whis.jpg", "powerlevel": 98000, "type": "Anime" },
+    { "name": "Broly", "img": "/img/Broly.jpg", "powerlevel": 120000, "type": "Anime" },
+    { "name": "Jiren", "img": "/img/Jiren.jpg", "powerlevel": 77000, "type": "Anime" },
+    { "name": "Saitama", "img": "/img/Saitama.jpg", "powerlevel": 999999, "type": "Anime" },
+    { "name": "Genos", "img": "/img/Genos.jpg", "powerlevel": 8000, "type": "Anime" },
+    { "name": "Boros", "img": "/img/Boros.jpg", "powerlevel": 45000, "type": "Anime" },
+    { "name": "Tatsumaki", "img": "/img/Tatsumaki.jpg", "powerlevel": 36000, "type": "Anime" },
+    { "name": "Garou", "img": "/img/Garou.jpg", "powerlevel": 22000, "type": "Anime" },
+    { "name": "Monkey D. Luffy", "img": "/img/Monkey_D._Luffy.jpg", "powerlevel": 89000, "type": "Anime" },
+    { "name": "Roronoa Zoro", "img": "/img/Roronoa_Zoro.jpg", "powerlevel": 82000, "type": "Anime" },
+    { "name": "Sanji", "img": "/img/Sanji.jpg", "powerlevel": 68000, "type": "Anime" },
+    { "name": "Nami", "img": "/img/Nami.jpg", "powerlevel": 400, "type": "Anime" },
+    { "name": "Usopp", "img": "/img/Usopp.jpg", "powerlevel": 300, "type": "Anime" },
+    { "name": "Tony Tony Chopper", "img": "/img/Tony_Tony_Chopper.jpg", "powerlevel": 1100, "type": "Anime" },
+    { "name": "Nico Robin", "img": "/img/Nico_Robin.jpg", "powerlevel": 7200, "type": "Anime" },
+    { "name": "Franky", "img": "/img/Franky.jpg", "powerlevel": 8500, "type": "Anime" },
+    { "name": "Brook", "img": "/img/Brook.jpg", "powerlevel": 5000, "type": "Anime" },
+    { "name": "Jinbe", "img": "/img/Jinbe.jpg", "powerlevel": 15000, "type": "Anime" },
+    { "name": "Shanks", "img": "/img/Shanks.jpg", "powerlevel": 94000, "type": "Anime" },
+    { "name": "Marshall D. Teach", "img": "/img/Marshall_D._Teach.jpg", "powerlevel": 88000, "type": "Anime" },
+    { "name": "Trafalgar D. Law", "img": "/img/Trafalgar_D._Law.jpg", "powerlevel": 42000, "type": "Anime" },
+    { "name": "Eustass Kid", "img": "/img/Eustass_Kid.jpg", "powerlevel": 43000, "type": "Anime" },
+    { "name": "Portgas D. Ace", "img": "/img/Portgas_D._Ace.jpg", "powerlevel": 52000, "type": "Anime" },
+    { "name": "Dracule Mihawk", "img": "/img/Dracule_Mihawk.jpg", "powerlevel": 48000, "type": "Anime" },
+    { "name": "Naruto Uzumaki", "img": "/img/Naruto_Uzumaki.jpg", "powerlevel": 8500, "type": "Anime" },
+    { "name": "Sasuke Uchiha", "img": "/img/Sasuke_Uchiha.jpg", "powerlevel": 8400, "type": "Anime" },
+    { "name": "Sakura Haruno", "img": "/img/Sakura_Haruno.jpg", "powerlevel": 220, "type": "Anime" },
+    { "name": "Kakashi Hatake", "img": "/img/Kakashi_Hatake.jpg", "powerlevel": 30000, "type": "Anime" },
+    { "name": "Itachi Uchiha", "img": "/img/Itachi_Uchiha.jpg", "powerlevel": 41000, "type": "Anime" },
+    { "name": "Madara Uchiha", "img": "/img/Madara_Uchiha.jpg", "powerlevel": 98000, "type": "Anime" },
+    { "name": "Hashirama Senju", "img": "/img/Hashirama_Senju.jpg", "powerlevel": 94000, "type": "Anime" },
+    { "name": "Obito Uchiha", "img": "/img/Obito_Uchiha.jpg", "powerlevel": 50000, "type": "Anime" },
+    { "name": "Minato Namikaze", "img": "/img/Minato_Namikaze.jpg", "powerlevel": 5600, "type": "Anime" },
+    { "name": "Jiraiya", "img": "/img/Jiraiya.jpg", "powerlevel": 32000, "type": "Anime" },
+    { "name": "Ichigo Kurosaki", "img": "/img/Ichigo_Kurosaki.jpg", "powerlevel": 76000, "type": "Anime" },
+    { "name": "Rukia Kuchiki", "img": "/img/Rukia_Kuchiki.jpg", "powerlevel": 11000, "type": "Anime" },
+    { "name": "Byakuya Kuchiki", "img": "/img/Byakuya_Kuchiki.jpg", "powerlevel": 38000, "type": "Anime" },
+    { "name": "Kenpachi Zaraki", "img": "/img/Kenpachi_Zaraki.jpg", "powerlevel": 47000, "type": "Anime" },
+    { "name": "Toshiro Hitsugaya", "img": "/img/Toshiro_Hitsugaya.jpg", "powerlevel": 26000, "type": "Anime" },
+    { "name": "Sosuke Aizen", "img": "/img/Sosuke_Aizen.jpg", "powerlevel": 190000, "type": "Anime" },
+    { "name": "Ulquiorra Cifer", "img": "/img/Ulquiorra_Cifer.jpg", "powerlevel": 50000, "type": "Anime" },
+    { "name": "Yoruichi Shihoin", "img": "/img/Yoruichi_Shihoin.jpg", "powerlevel": 9400, "type": "Anime" },
+    { "name": "Yuji Itadori", "img": "/img/Yuji_Itadori.jpg", "powerlevel": 2600, "type": "Anime" },
+    { "name": "Megumi Fushiguro", "img": "/img/Megumi_Fushiguro.jpg", "powerlevel": 1800, "type": "Anime" },
+    { "name": "Nobara Kugisaki", "img": "/img/Nobara_Kugisaki.jpg", "powerlevel": 1200, "type": "Anime" },
+    { "name": "Satoru Gojo", "img": "/img/Satoru_Gojo.jpg", "powerlevel": 180000, "type": "Anime" },
+    { "name": "Ryomen Sukuna", "img": "/img/Ryomen_Sukuna.jpg", "powerlevel": 182000, "type": "Anime" },
+    { "name": "Maki Zenin", "img": "/img/Maki_Zenin.jpg", "powerlevel": 900, "type": "Anime" },
+    { "name": "Kento Nanami", "img": "/img/Kento_Nanami.jpg", "powerlevel": 11000, "type": "Anime" },
+    { "name": "Izuku Midoriya", "img": "/img/Izuku_Midoriya.jpg", "powerlevel": 4000, "type": "Anime" },
+    { "name": "All Might", "img": "/img/All_Might.jpg", "powerlevel": 19000, "type": "Anime" },
+    { "name": "Katsuki Bakugo", "img": "/img/Katsuki_Bakugo.jpg", "powerlevel": 4200, "type": "Anime" },
+    { "name": "Shoto Todoroki", "img": "/img/Shoto_Todoroki.jpg", "powerlevel": 4300, "type": "Anime" },
+    { "name": "Tomura Shigaraki", "img": "/img/Tomura_Shigaraki.jpg", "powerlevel": 97000, "type": "Anime" },
+    { "name": "Endeavor", "img": "/img/Endeavor.jpg", "powerlevel": 51000, "type": "Anime" },
+    { "name": "Aizawa (Eraserhead)", "img": "/img/Aizawa_(Eraserhead).jpg", "powerlevel": 1500, "type": "Anime" },
+    { "name": "Ochaco Uraraka", "img": "/img/Ochaco_Uraraka.jpg", "powerlevel": 1000, "type": "Anime" },
+    { "name": "Eijiro Kirishima", "img": "/img/Eijiro_Kirishima.jpg", "powerlevel": 1200, "type": "Anime" },
+    { "name": "Tsuyu Asui", "img": "/img/Tsuyu_Asui.jpg", "powerlevel": 900, "type": "Anime" },
+    { "name": "Tanjiro Kamado", "img": "/img/Tanjiro_Kamado.jpg", "powerlevel": 3000, "type": "Anime" },
+    { "name": "Nezuko Kamado", "img": "/img/Nezuko_Kamado.jpg", "powerlevel": 27000, "type": "Anime" },
+    { "name": "Zenitsu Agatsuma", "img": "/img/Zenitsu_Agatsuma.jpg", "powerlevel": 140000, "type": "Anime" },
+    { "name": "Inosuke Hashibira", "img": "/img/Inosuke_Hashibira.jpg", "powerlevel": 1600, "type": "Anime" },
+    { "name": "Muzan Kibutsuji", "img": "/img/Muzan_Kibutsuji.jpg", "powerlevel": 82000, "type": "Anime" },
+    { "name": "Giyu Tomioka", "img": "/img/Giyu_Tomioka.jpg", "powerlevel": 21000, "type": "Anime" },
+    { "name": "Shinobu Kocho", "img": "/img/Shinobu_Kocho.jpg", "powerlevel": 13000, "type": "Anime" },
+    { "name": "Gon Freecss", "img": "/img/Gon_Freecss.jpg", "powerlevel": 26000, "type": "Anime" },
+    { "name": "Killua Zoldyck", "img": "/img/Killua_Zoldyck.jpg", "powerlevel": 270000, "type": "Anime" },
+    { "name": "Hisoka Morow", "img": "/img/Hisoka_Morow.jpg", "powerlevel": 48000, "type": "Anime" },
+    { "name": "Chrollo Lucilfer", "img": "/img/Chrollo_Lucilfer.jpg", "powerlevel": 52000, "type": "Anime" },
+    { "name": "Meruem", "img": "/img/Meruem.jpg", "powerlevel": 75000, "type": "Anime" },
+    { "name": "Kurapika", "img": "/img/Kurapika.jpg", "powerlevel": 24000, "type": "Anime" },
+    { "name": "Eren Yeager", "img": "/img/Eren_Yeager.jpg", "powerlevel": 40000, "type": "Anime" },
+    { "name": "Mikasa Ackerman", "img": "/img/Mikasa_Ackerman.jpg", "powerlevel": 39000, "type": "Anime" },
+    { "name": "Armin Arlert", "img": "/img/Armin_Arlert.jpg", "powerlevel": 15000, "type": "Anime" },
+    { "name": "Levi Ackerman", "img": "/img/Levi_Ackerman.jpg", "powerlevel": 56000, "type": "Anime" },
+    { "name": "Reiner Braun", "img": "/img/Reiner_Braun.jpg", "powerlevel": 32000, "type": "Anime" },
+    { "name": "Zeke Yeager", "img": "/img/Zeke_Yeager.jpg", "powerlevel": 38000, "type": "Anime" },
+    { "name": "Edward Elric", "img": "/img/Edward_Elric.jpg", "powerlevel": 22000, "type": "Anime" },
+    { "name": "Alphonse Elric", "img": "/img/Alphonse_Elric.jpg", "powerlevel": 20000, "type": "Anime" },
+    { "name": "Roy Mustang", "img": "/img/Roy_Mustang.jpg", "powerlevel": 2700, "type": "Anime" },
+    { "name": "Scar", "img": "/img/Scar.jpg", "powerlevel": 19000, "type": "Anime" },
+    { "name": "Ling Yao", "img": "/img/Ling_Yao.jpg", "powerlevel": 1300, "type": "Anime" },
+    { "name": "Manjiro 'Mikey' Sano", "img": "/img/Manjiro_'Mikey'_Sano.jpg", "powerlevel": 300000, "type": "Anime" },
+    { "name": "Ken 'Draken' Ryuguji", "img": "/img/Ken_'Draken'_Ryuguji.jpg", "powerlevel": 260000, "type": "Anime" },
+    { "name": "Takemichi Hanagaki", "img": "/img/Takemichi_Hanagaki.jpg", "powerlevel": 90000, "type": "Anime" },
+    { "name": "Kisaki Tetta", "img": "/img/Kisaki_Tetta.jpg", "powerlevel": 110000, "type": "Anime" },
+    { "name": "Denji", "img": "/img/Denji.jpg", "powerlevel": 1700, "type": "Anime" },
+    { "name": "Power (Chainsaw Man)", "img": "/img/Power_(Chainsaw_Man).jpg", "powerlevel": 1600, "type": "Anime" },
+    { "name": "Makima", "img": "/img/Makima.jpg", "powerlevel": 450000, "type": "Anime" },
+
+
+    {
+        "name": "The entire country of United States",
+        "img": "/img/United_States.jpg",
+        "powerlevel": 3300000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of China",
+        "img": "/img/China.jpg",
+        "powerlevel": 2500000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of India",
+        "img": "/img/India.jpg",
+        "powerlevel": 1500000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Russia",
+        "img": "/img/Russia.jpg",
+        "powerlevel": 1200000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Germany",
+        "img": "/img/Germany.jpg",
+        "powerlevel": 900000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of United Kingdom",
+        "img": "/img/United_Kingdom.jpg",
+        "powerlevel": 850000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of France",
+        "img": "/img/France.jpg",
+        "powerlevel": 830000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Japan",
+        "img": "/img/Japan.jpg",
+        "powerlevel": 800000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Canada",
+        "img": "/img/Canada.jpg",
+        "powerlevel": 500000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Brazil",
+        "img": "/img/Brazil.jpg",
+        "powerlevel": 480000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Italy",
+        "img": "/img/Italy.jpg",
+        "powerlevel": 450000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of South Korea",
+        "img": "/img/South_Korea.jpg",
+        "powerlevel": 430000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Australia",
+        "img": "/img/Australia.jpg",
+        "powerlevel": 410000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Spain",
+        "img": "/img/Spain.jpg",
+        "powerlevel": 380000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Mexico",
+        "img": "/img/Mexico.jpg",
+        "powerlevel": 350000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Turkey",
+        "img": "/img/Turkey.jpg",
+        "powerlevel": 320000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Saudi Arabia",
+        "img": "/img/Saudi_Arabia.jpg",
+        "powerlevel": 300000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Netherlands",
+        "img": "/img/Netherlands.jpg",
+        "powerlevel": 280000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Switzerland",
+        "img": "/img/Switzerland.jpg",
+        "powerlevel": 260000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Sweden",
+        "img": "/img/Sweden.jpg",
+        "powerlevel": 240000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Poland",
+        "img": "/img/Poland.jpg",
+        "powerlevel": 200000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Indonesia",
+        "img": "/img/Indonesia.jpg",
+        "powerlevel": 180000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Iran",
+        "img": "/img/Iran.jpg",
+        "powerlevel": 170000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Argentina",
+        "img": "/img/Argentina.jpg",
+        "powerlevel": 160000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Belgium",
+        "img": "/img/Belgium.jpg",
+        "powerlevel": 150000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Norway",
+        "img": "/img/Norway.jpg",
+        "powerlevel": 140000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of United Arab Emirates",
+        "img": "/img/United_Arab_Emirates.jpg",
+        "powerlevel": 135000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Israel",
+        "img": "/img/Israel.jpg",
+        "powerlevel": 130000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of South Africa",
+        "img": "/img/South_Africa.jpg",
+        "powerlevel": 125000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Thailand",
+        "img": "/img/Thailand.jpg",
+        "powerlevel": 120000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Egypt",
+        "img": "/img/Egypt.jpg",
+        "powerlevel": 115000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Denmark",
+        "img": "/img/Denmark.jpg",
+        "powerlevel": 110000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Singapore",
+        "img": "/img/Singapore.jpg",
+        "powerlevel": 105000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Malaysia",
+        "img": "/img/Malaysia.jpg",
+        "powerlevel": 100000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Colombia",
+        "img": "/img/Colombia.jpg",
+        "powerlevel": 95000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Pakistan",
+        "img": "/img/Pakistan.jpg",
+        "powerlevel": 90000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Philippines",
+        "img": "/img/Philippines.jpg",
+        "powerlevel": 88000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Vietnam",
+        "img": "/img/Vietnam.jpg",
+        "powerlevel": 86000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Chile",
+        "img": "/img/Chile.jpg",
+        "powerlevel": 82000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Peru",
+        "img": "/img/Peru.jpg",
+        "powerlevel": 80000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Bangladesh",
+        "img": "/img/Bangladesh.jpg",
+        "powerlevel": 78000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Finland",
+        "img": "/img/Finland.jpg",
+        "powerlevel": 76000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Greece",
+        "img": "/img/Greece.jpg",
+        "powerlevel": 74000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Portugal",
+        "img": "/img/Portugal.jpg",
+        "powerlevel": 72000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Romania",
+        "img": "/img/Romania.jpg",
+        "powerlevel": 70000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Czech Republic",
+        "img": "/img/Czech_Republic.jpg",
+        "powerlevel": 68000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Hungary",
+        "img": "/img/Hungary.jpg",
+        "powerlevel": 66000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of New Zealand",
+        "img": "/img/New_Zealand.jpg",
+        "powerlevel": 64000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Algeria",
+        "img": "/img/Algeria.jpg",
+        "powerlevel": 62000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Kazakhstan",
+        "img": "/img/Kazakhstan.jpg",
+        "powerlevel": 60000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Iraq",
+        "img": "/img/Iraq.jpg",
+        "powerlevel": 58000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Morocco",
+        "img": "/img/Morocco.jpg",
+        "powerlevel": 56000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Qatar",
+        "img": "/img/Qatar.jpg",
+        "powerlevel": 54000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Kuwait",
+        "img": "/img/Kuwait.jpg",
+        "powerlevel": 52000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Ecuador",
+        "img": "/img/Ecuador.jpg",
+        "powerlevel": 50000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Angola",
+        "img": "/img/Angola.jpg",
+        "powerlevel": 48000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Uzbekistan",
+        "img": "/img/Uzbekistan.jpg",
+        "powerlevel": 46000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Belarus",
+        "img": "/img/Belarus.jpg",
+        "powerlevel": 44000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Dominican Republic",
+        "img": "/img/Dominican_Republic.jpg",
+        "powerlevel": 42000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Sri Lanka",
+        "img": "/img/Sri_Lanka.jpg",
+        "powerlevel": 40000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Serbia",
+        "img": "/img/Serbia.jpg",
+        "powerlevel": 38000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Kenya",
+        "img": "/img/Kenya.jpg",
+        "powerlevel": 36000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Uganda",
+        "img": "/img/Uganda.jpg",
+        "powerlevel": 34000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Myanmar",
+        "img": "/img/Myanmar.jpg",
+        "powerlevel": 32000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Yemen",
+        "img": "/img/Yemen.jpg",
+        "powerlevel": 30000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Libya",
+        "img": "/img/Libya.jpg",
+        "powerlevel": 28000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Bolivia",
+        "img": "/img/Bolivia.jpg",
+        "powerlevel": 26000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Paraguay",
+        "img": "/img/Paraguay.jpg",
+        "powerlevel": 24000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Slovenia",
+        "img": "/img/Slovenia.jpg",
+        "powerlevel": 22000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Croatia",
+        "img": "/img/Croatia.jpg",
+        "powerlevel": 20000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Lithuania",
+        "img": "/img/Lithuania.jpg",
+        "powerlevel": 19000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Slovakia",
+        "img": "/img/Slovakia.jpg",
+        "powerlevel": 18000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Bahrain",
+        "img": "/img/Bahrain.jpg",
+        "powerlevel": 18500000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Honduras",
+        "img": "/img/Honduras.jpg",
+        "powerlevel": 18000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Nicaragua",
+        "img": "/img/Nicaragua.jpg",
+        "powerlevel": 17500000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of El Salvador",
+        "img": "/img/El_Salvador.jpg",
+        "powerlevel": 17000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Cambodia",
+        "img": "/img/Cambodia.jpg",
+        "powerlevel": 16500000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Nepal",
+        "img": "/img/Nepal.jpg",
+        "powerlevel": 16000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Tajikistan",
+        "img": "/img/Tajikistan.jpg",
+        "powerlevel": 15500000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Kyrgyzstan",
+        "img": "/img/Kyrgyzstan.jpg",
+        "powerlevel": 15050000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Mongolia",
+        "img": "/img/Mongolia.jpg",
+        "powerlevel": 14500000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Albania",
+        "img": "/img/Albania.jpg",
+        "powerlevel": 14200000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Latvia",
+        "img": "/img/Latvia.jpg",
+        "powerlevel": 14050000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Estonia",
+        "img": "/img/Estonia.jpg",
+        "powerlevel": 14000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Cyprus",
+        "img": "/img/Cyprus.jpg",
+        "powerlevel": 13550000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Luxembourg",
+        "img": "/img/Luxembourg.jpg",
+        "powerlevel": 13400000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Malta",
+        "img": "/img/Malta.jpg",
+        "powerlevel": 13300000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Iceland",
+        "img": "/img/Iceland.jpg",
+        "powerlevel": 13200000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Montenegro",
+        "img": "/img/Montenegro.jpg",
+        "powerlevel": 13100000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Botswana",
+        "img": "/img/Botswana.jpg",
+        "powerlevel": 13050000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Namibia",
+        "img": "/img/Namibia.jpg",
+        "powerlevel": 13000000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Zimbabwe",
+        "img": "/img/Zimbabwe.jpg",
+        "powerlevel": 12900000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Mauritius",
+        "img": "/img/Mauritius.jpg",
+        "powerlevel": 12850000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Fiji",
+        "img": "/img/Fiji.jpg",
+        "powerlevel": 12800000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Papua New Guinea",
+        "img": "/img/Papua_New_Guinea.jpg",
+        "powerlevel": 12750000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Jamaica",
+        "img": "/img/Jamaica.jpg",
+        "powerlevel": 12700000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Bahamas",
+        "img": "/img/Bahamas.jpg",
+        "powerlevel": 12650000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Trinidad and Tobago",
+        "img": "/img/Trinidad_and_Tobago.jpg",
+        "powerlevel": 12600000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Barbados",
+        "img": "/img/Barbados.jpg",
+        "powerlevel": 12550000,
+        "type": "Countries"
+    },
+    {
+        "name": "The entire country of Belize",
+        "img": "/img/Belize.jpg",
+        "powerlevel": 12500000,
+        "type": "Countries"
+    },
+
+
+
+    { "name": "Taylor Swift", "img": "/img/Taylor_Swift.jpg", "powerlevel": 295, "type": "Celebrities" },
+    { "name": "Leonardo DiCaprio", "img": "/img/Leonardo_DiCaprio.jpg", "powerlevel": 365, "type": "Celebrities" },
+    { "name": "Beyoncé", "img": "/img/Beyoncé.jpg", "powerlevel": 280, "type": "Celebrities" },
+    { "name": "Elon Musk", "img": "/img/Elon_Musk.jpg", "powerlevel": 390, "type": "Celebrities" },
+    { "name": "Rihanna", "img": "/img/Rihanna.jpg", "powerlevel": 270, "type": "Celebrities" },
+    { "name": "Tom Cruise", "img": "/img/Tom_Cruise.jpg", "powerlevel": 360, "type": "Celebrities" },
+    { "name": "Selena Gomez", "img": "/img/Selena_Gomez.jpg", "powerlevel": 250, "type": "Celebrities" },
+    { "name": "Cristiano Ronaldo", "img": "/img/Cristiano_Ronaldo.png", "powerlevel": 395, "type": "Celebrities" },
+    { "name": "Lionel Messi", "img": "/img/Lionel_Messi.png", "powerlevel": 380, "type": "Celebrities" },
+    { "name": "Kim Kardashian", "img": "/img/Kim_Kardashian.jpg", "powerlevel": 260, "type": "Celebrities" },
+    { "name": "Ariana Grande", "img": "/img/Ariana_Grande.jpg", "powerlevel": 270, "type": "Celebrities" },
+    { "name": "Billie Eilish", "img": "/img/Billie_Eilish.jpg", "powerlevel": 230, "type": "Celebrities" },
+    { "name": "Dwayne Johnson", "img": "/img/Dwayne_Johnson.png", "powerlevel": 400, "type": "Celebrities" },
+    { "name": "Kanye West", "img": "/img/Kanye_West.jpg", "powerlevel": 375, "type": "Celebrities" },
+    { "name": "Zendaya", "img": "/img/Zendaya.jpg", "powerlevel": 260, "type": "Celebrities" },
+    { "name": "Johnny Depp", "img": "/img/Johnny_Depp.jpg", "powerlevel": 345, "type": "Celebrities" },
+    { "name": "Drake", "img": "/img/Drake.jpg", "powerlevel": 370, "type": "Celebrities" },
+    { "name": "Kendall Jenner", "img": "/img/Kendall_Jenner.jpg", "powerlevel": 245, "type": "Celebrities" },
+    { "name": "Jennifer Lawrence", "img": "/img/Jennifer_Lawrence.jpg", "powerlevel": 280, "type": "Celebrities" },
+    { "name": "Ed Sheeran", "img": "/img/Ed_Sheeran.jpg", "powerlevel": 340, "type": "Celebrities" },
+    { "name": "Miley Cyrus", "img": "/img/Miley_Cyrus.jpg", "powerlevel": 275, "type": "Celebrities" },
+    { "name": "Post Malone", "img": "/img/Post_Malone.jpg", "powerlevel": 330, "type": "Celebrities" },
+    { "name": "Shakira", "img": "/img/Shakira.jpg", "powerlevel": 285, "type": "Celebrities" },
+    { "name": "Emma Watson", "img": "/img/Emma_Watson.jpg", "powerlevel": 260, "type": "Celebrities" },
+    { "name": "Justin Bieber", "img": "/img/Justin_Bieber.jpg", "powerlevel": 355, "type": "Celebrities" },
+    { "name": "Robert Downey Jr.", "img": "/img/Robert_Downey_Jr..png", "powerlevel": 385, "type": "Celebrities" },
+    { "name": "Lady Gaga", "img": "/img/Lady_Gaga.jpg", "powerlevel": 295, "type": "Celebrities" },
+    { "name": "Keanu Reeves", "img": "/img/Keanu_Reeves.jpg", "powerlevel": 360, "type": "Celebrities" },
+    { "name": "Chris Hemsworth", "img": "/img/Chris_Hemsworth.jpg", "powerlevel": 390, "type": "Celebrities" },
+    { "name": "Scarlett Johansson", "img": "/img/Scarlett_Johansson.jpg", "powerlevel": 290, "type": "Celebrities" },
+    { "name": "Jennifer Lopez", "img": "/img/Jennifer_Lopez.jpg", "powerlevel": 280, "type": "Celebrities" },
+    { "name": "Will Smith", "img": "/img/Will_Smith.jpg", "powerlevel": 370, "type": "Celebrities" },
+    { "name": "Angelina Jolie", "img": "/img/Angelina_Jolie.jpg", "powerlevel": 295, "type": "Celebrities" },
+    { "name": "Brad Pitt", "img": "/img/Brad_Pitt.jpg", "powerlevel": 375, "type": "Celebrities" },
+    { "name": "Emma Stone", "img": "/img/Emma_Stone.jpg", "powerlevel": 275, "type": "Celebrities" },
+    { "name": "Jason Momoa", "img": "/img/Jason_Momoa.jpg", "powerlevel": 395, "type": "Celebrities" },
+    { "name": "Natalie Portman", "img": "/img/Natalie_Portman.png", "powerlevel": 250, "type": "Celebrities" },
+    { "name": "Bruno Mars", "img": "/img/Bruno_Mars.jpg", "powerlevel": 335, "type": "Celebrities" },
+    { "name": "Harry Styles", "img": "/img/Harry_Styles.jpg", "powerlevel": 345, "type": "Celebrities" },
+    { "name": "Gal Gadot", "img": "/img/Gal_Gadot.jpg", "powerlevel": 285, "type": "Celebrities" },
+    { "name": "Chris Evans", "img": "/img/Chris_Evans.png", "powerlevel": 380, "type": "Celebrities" },
+    { "name": "Megan Fox", "img": "/img/Megan_Fox.jpg", "powerlevel": 265, "type": "Celebrities" },
+    { "name": "Ryan Gosling", "img": "/img/Ryan_Gosling.jpg", "powerlevel": 355, "type": "Celebrities" },
+    { "name": "Doja Cat", "img": "/img/Doja_Cat.jpg", "powerlevel": 240, "type": "Celebrities" },
+    { "name": "Jason Statham", "img": "/img/Jason_Statham.jpg", "powerlevel": 390, "type": "Celebrities" },
+    { "name": "Lana Del Rey", "img": "/img/Lana_Del_Rey.jpg", "powerlevel": 230, "type": "Celebrities" },
+    { "name": "Ryan Reynolds", "img": "/img/Ryan_Reynolds.png", "powerlevel": 385, "type": "Celebrities" },
+    { "name": "Olivia Rodrigo", "img": "/img/Olivia_Rodrigo.jpg", "powerlevel": 220, "type": "Celebrities" },
+    { "name": "Hugh Jackman", "img": "/img/Hugh_Jackman.jpg", "powerlevel": 375, "type": "Celebrities" },
+    { "name": "Dua Lipa", "img": "/img/Dua_Lipa.jpg", "powerlevel": 280, "type": "Celebrities" },
+    { "name": "Mark Wahlberg", "img": "/img/Mark_Wahlberg.jpg", "powerlevel": 360, "type": "Celebrities" },
+    { "name": "Adele", "img": "/img/Adele.jpg", "powerlevel": 295, "type": "Celebrities" },
+    { "name": "Henry Cavill", "img": "/img/Henry_Cavill.jpg", "powerlevel": 380, "type": "Celebrities" },
+    { "name": "Florence Pugh", "img": "/img/Florence_Pugh.jpg", "powerlevel": 260, "type": "Celebrities" },
+    { "name": "Tom Holland", "img": "/img/Tom_Holland.jpg", "powerlevel": 340, "type": "Celebrities" },
+    { "name": "Hailey Bieber", "img": "/img/Hailey_Bieber.jpg", "powerlevel": 240, "type": "Celebrities" },
+    { "name": "Michael B. Jordan", "img": "/img/Michael_B._Jordan.jpg", "powerlevel": 360, "type": "Celebrities" },
+    { "name": "Blake Lively", "img": "/img/Blake_Lively.jpg", "powerlevel": 265, "type": "Celebrities" },
+    { "name": "Zac Efron", "img": "/img/Zac_Efron.jpg", "powerlevel": 350, "type": "Celebrities" },
+    { "name": "Anne Hathaway", "img": "/img/Anne_Hathaway.jpg", "powerlevel": 290, "type": "Celebrities" },
+    { "name": "Vin Diesel", "img": "/img/Vin_Diesel.jpg", "powerlevel": 395, "type": "Celebrities" },
+    { "name": "Margot Robbie", "img": "/img/Margot_Robbie.jpg", "powerlevel": 285, "type": "Celebrities" },
+    { "name": "Idris Elba", "img": "/img/Idris_Elba.jpg", "powerlevel": 370, "type": "Celebrities" },
+    { "name": "Katy Perry", "img": "/img/Katy_Perry.jpg", "powerlevel": 280, "type": "Celebrities" },
+    { "name": "Jake Gyllenhaal", "img": "/img/Jake_Gyllenhaal.jpg", "powerlevel": 365, "type": "Celebrities" },
+    { "name": "Hailee Steinfeld", "img": "/img/Hailee_Steinfeld.jpg", "powerlevel": 240, "type": "Celebrities" },
+    { "name": "Chris Pratt", "img": "/img/Chris_Pratt.jpg", "powerlevel": 380, "type": "Celebrities" },
+    { "name": "Sofia Vergara", "img": "/img/Sofia_Vergara.jpg", "powerlevel": 260, "type": "Celebrities" },
+    { "name": "John Cena", "img": "/img/John_Cena.jpg", "powerlevel": 395, "type": "Celebrities" },
+    { "name": "Cardi B", "img": "/img/Cardi_B.png", "powerlevel": 270, "type": "Celebrities" },
+    { "name": "Shawn Mendes", "img": "/img/Shawn_Mendes.jpg", "powerlevel": 340, "type": "Celebrities" },
+    { "name": "Nicki Minaj", "img": "/img/Nicki_Minaj.jpg", "powerlevel": 275, "type": "Celebrities" },
+    { "name": "Adam Driver", "img": "/img/Adam_Driver.jpg", "powerlevel": 355, "type": "Celebrities" },
+    { "name": "Lizzo", "img": "/img/Lizzo.jpg", "powerlevel": 265, "type": "Celebrities" },
+    { "name": "Timothée Chalamet", "img": "/img/Timothée_Chalamet.jpg", "powerlevel": 325, "type": "Celebrities" },
+    { "name": "Sabrina Carpenter", "img": "/img/Sabrina_Carpenter.jpg", "powerlevel": 225, "type": "Celebrities" },
+    { "name": "Robert Pattinson", "img": "/img/Robert_Pattinson.jpg", "powerlevel": 345, "type": "Celebrities" },
+    { "name": "Millie Bobby Brown", "img": "/img/Millie_Bobby_Brown.jpg", "powerlevel": 215, "type": "Celebrities" },
+    { "name": "Daniel Radcliffe", "img": "/img/Daniel_Radcliffe.jpg", "powerlevel": 350, "type": "Celebrities" },
+    { "name": "Natalia Dyer", "img": "/img/Natalia_Dyer.jpg", "powerlevel": 235, "type": "Celebrities" },
+    { "name": "Cillian Murphy", "img": "/img/Cillian_Murphy.jpg", "powerlevel": 365, "type": "Celebrities" },
+    { "name": "Anya Taylor-Joy", "img": "/img/Anya_Taylor-Joy.jpg", "powerlevel": 250, "type": "Celebrities" },
+    { "name": "Paul Rudd", "img": "/img/Paul_Rudd.jpg", "powerlevel": 360, "type": "Celebrities" },
+    { "name": "Sydney Sweeney", "img": "/img/Sydney_Sweeney.jpg", "powerlevel": 240, "type": "Celebrities" },
+    { "name": "Jake Paul", "img": "/img/Jake_Paul.jpg", "powerlevel": 370, "type": "Celebrities" },
+    { "name": "KSI", "img": "/img/KSI.jpg", "powerlevel": 365, "type": "Celebrities" },
+    { "name": "Bella Hadid", "img": "/img/Bella_Hadid.jpg", "powerlevel": 235, "type": "Celebrities" },
+    { "name": "Gigi Hadid", "img": "/img/Gigi_Hadid.jpg", "powerlevel": 245, "type": "Celebrities" },
+    { "name": "Lil Nas X", "img": "/img/Lil_Nas_X.jpg", "powerlevel": 330, "type": "Celebrities" },
+    { "name": "Snoop Dogg", "img": "/img/Snoop_Dogg.jpg", "powerlevel": 385, "type": "Celebrities" },
+    { "name": "Ice Spice", "img": "/img/Ice_Spice.jpg", "powerlevel": 220, "type": "Celebrities" },
+    { "name": "Travis Scott", "img": "/img/Travis_Scott.jpg", "powerlevel": 345, "type": "Celebrities" },
+    { "name": "Kylie Jenner", "img": "/img/Kylie_Jenner.jpg", "powerlevel": 255, "type": "Celebrities" },
+    { "name": "PewDiePie", "img": "/img/PewDiePie.jpg", "powerlevel": 335, "type": "Celebrities" },
+    { "name": "MrBeast", "img": "/img/MrBeast.jpg", "powerlevel": 390, "type": "Celebrities" },
+    { "name": "Markiplier", "img": "/img/Markiplier.jpg", "powerlevel": 360, "type": "Celebrities" },
+    { "name": "Pokimane", "img": "/img/Pokimane.jpg", "powerlevel": 260, "type": "Celebrities" },
+    { "name": "Neymar Jr.", "img": "/img/Neymar_Jr..png", "powerlevel": 375, "type": "Celebrities" },
+    { "name": "LeBron James", "img": "/img/LeBron_James.jpg", "powerlevel": 395, "type": "Celebrities" },
+    { "name": "Serena Williams", "img": "/img/Serena_Williams.jpg", "powerlevel": 300, "type": "Celebrities" },
+    { "name": "Usain Bolt", "img": "/img/Usain_Bolt.jpg", "powerlevel": 390, "type": "Celebrities" },
+    { "name": "Naomi Osaka", "img": "/img/Naomi_Osaka.jpg", "powerlevel": 280, "type": "Celebrities" },
+    { "name": "Conor McGregor", "img": "/img/Conor_McGregor.jpg", "powerlevel": 400, "type": "Celebrities" },
+    { "name": "Simone Biles", "img": "/img/Simone_Biles.jpg", "powerlevel": 290, "type": "Celebrities" },
+    { "name": "Michael Phelps", "img": "/img/Michael_Phelps.jpg", "powerlevel": 385, "type": "Celebrities" },
+    { "name": "Lewis Hamilton", "img": "/img/Lewis_Hamilton.jpg", "powerlevel": 375, "type": "Celebrities" },
+    { "name": "Emma Chamberlain", "img": "/img/Emma_Chamberlain.jpg", "powerlevel": 235, "type": "Celebrities" },
+    { "name": "Logan Paul", "img": "/img/Logan_Paul.jpg", "powerlevel": 365, "type": "Celebrities" },
+
+    { "name": "African Elephant", "img": "/img/African_Elephant.jpg", "powerlevel": 5000, "type": "Animals" },
+    { "name": "Gorilla", "img": "/img/Gorilla.jpg", "powerlevel": 2000, "type": "Animals" },
+    { "name": "Grizzly Bear", "img": "/img/Grizzly_Bear.jpg", "powerlevel": 1800, "type": "Animals" },
+    { "name": "Tiger", "img": "/img/Tiger.jpg", "powerlevel": 1500, "type": "Animals" },
+    { "name": "Lion", "img": "/img/Lion.jpg", "powerlevel": 1450, "type": "Animals" },
+    { "name": "Crocodile", "img": "/img/Crocodile.jpg", "powerlevel": 1300, "type": "Animals" },
+    { "name": "Orca", "img": "/img/Orca.png", "powerlevel": 1600, "type": "Animals" },
+    { "name": "Great White Shark", "img": "/img/Great_White_Shark.jpg", "powerlevel": 1400, "type": "Animals" },
+    { "name": "Polar Bear", "img": "/img/Polar_Bear.jpg", "powerlevel": 1700, "type": "Animals" },
+    { "name": "Komodo Dragon", "img": "/img/Komodo_Dragon.jpg", "powerlevel": 600, "type": "Animals" },
+    { "name": "Cheetah", "img": "/img/Cheetah.jpg", "powerlevel": 700, "type": "Animals" },
+    { "name": "Wolf", "img": "/img/Wolf.jpg", "powerlevel": 500, "type": "Animals" },
+    { "name": "Hyena", "img": "/img/Hyena.jpg", "powerlevel": 450, "type": "Animals" },
+    { "name": "Cougar", "img": "/img/Cougar.jpg", "powerlevel": 750, "type": "Animals" },
+    { "name": "Jaguar", "img": "/img/Jaguar.jpg", "powerlevel": 800, "type": "Animals" },
+    { "name": "Leopard", "img": "/img/Leopard.jpg", "powerlevel": 850, "type": "Animals" },
+    { "name": "Elephant Seal", "img": "/img/Elephant_Seal.jpg", "powerlevel": 1200, "type": "Animals" },
+    { "name": "Moose", "img": "/img/Moose.jpg", "powerlevel": 900, "type": "Animals" },
+    { "name": "Buffalo", "img": "/img/Buffalo.jpg", "powerlevel": 1100, "type": "Animals" },
+    { "name": "Rhino", "img": "/img/Rhino.jpg", "powerlevel": 2200, "type": "Animals" },
+    { "name": "Hippopotamus", "img": "/img/Hippopotamus.jpg", "powerlevel": 2100, "type": "Animals" },
+    { "name": "Giraffe", "img": "/img/Giraffe.jpg", "powerlevel": 400, "type": "Animals" },
+    { "name": "Camel", "img": "/img/Camel.jpg", "powerlevel": 350, "type": "Animals" },
+    { "name": "Donkey", "img": "/img/Donkey.jpg", "powerlevel": 250, "type": "Animals" },
+    { "name": "Horse", "img": "/img/Horse.jpg", "powerlevel": 600, "type": "Animals" },
+    { "name": "Zebra", "img": "/img/Zebra.jpg", "powerlevel": 500, "type": "Animals" },
+    { "name": "Kangaroo", "img": "/img/Kangaroo.jpg", "powerlevel": 450, "type": "Animals" },
+    { "name": "Wallaby", "img": "/img/Wallaby.jpg", "powerlevel": 300, "type": "Animals" },
+    { "name": "Koala", "img": "/img/Koala.jpg", "powerlevel": 200, "type": "Animals" },
+    { "name": "Sloth", "img": "/img/Sloth.jpg", "powerlevel": 50, "type": "Animals" },
+    { "name": "Chimpanzee", "img": "/img/Chimpanzee.jpg", "powerlevel": 1200, "type": "Animals" },
+    { "name": "Orangutan", "img": "/img/Orangutan.jpg", "powerlevel": 1500, "type": "Animals" },
+    { "name": "Baboon", "img": "/img/Baboon.jpg", "powerlevel": 600, "type": "Animals" },
+    { "name": "Coyote", "img": "/img/Coyote.png", "powerlevel": 100, "type": "Animals" },
+    { "name": "Fox", "img": "/img/Fox.jpg", "powerlevel": 150, "type": "Animals" },
+    { "name": "Raccoon", "img": "/img/Raccoon.jpg", "powerlevel": 100, "type": "Animals" },
+    { "name": "Badger", "img": "/img/Badger.jpg", "powerlevel": 200, "type": "Animals" },
+    { "name": "Otter", "img": "/img/Otter.jpg", "powerlevel": 100, "type": "Animals" },
+    { "name": "Beaver", "img": "/img/Beaver.jpg", "powerlevel": 120, "type": "Animals" },
+    { "name": "Porcupine", "img": "/img/Porcupine.jpg", "powerlevel": 150, "type": "Animals" },
+    { "name": "Hedgehog", "img": "/img/Hedgehog.jpg", "powerlevel": 50, "type": "Animals" },
+    { "name": "Skunk", "img": "/img/Skunk.jpg", "powerlevel": 80, "type": "Animals" },
+    { "name": "Armadillo", "img": "/img/Armadillo.jpg", "powerlevel": 70, "type": "Animals" },
+    { "name": "Alligator", "img": "/img/Alligator.jpg", "powerlevel": 900, "type": "Animals" },
+    { "name": "Sea Lion", "img": "/img/Sea_Lion.png", "powerlevel": 600, "type": "Animals" },
+    { "name": "Dolphin", "img": "/img/Dolphin.jpg", "powerlevel": 800, "type": "Animals" },
+    { "name": "Shark", "img": "/img/Shark.jpg", "powerlevel": 1300, "type": "Animals" },
+    { "name": "Swordfish", "img": "/img/Swordfish.jpg", "powerlevel": 700, "type": "Animals" },
+    { "name": "Marlin", "img": "/img/Marlin.jpg", "powerlevel": 650, "type": "Animals" },
+    { "name": "Tuna", "img": "/img/Tuna.jpg", "powerlevel": 400, "type": "Animals" },
+    { "name": "Octopus", "img": "/img/Octopus.jpg", "powerlevel": 300, "type": "Animals" },
+    { "name": "Squid", "img": "/img/Squid.jpg", "powerlevel": 250, "type": "Animals" },
+    { "name": "Jellyfish", "img": "/img/Jellyfish.jpg", "powerlevel": 150, "type": "Animals" },
+    { "name": "Crab", "img": "/img/Crab.jpg", "powerlevel": 100, "type": "Animals" },
+    { "name": "Lobster", "img": "/img/Lobster.jpg", "powerlevel": 200, "type": "Animals" },
+    { "name": "Shrimp", "img": "/img/Shrimp.jpg", "powerlevel": 50, "type": "Animals" },
+    { "name": "Seahorse", "img": "/img/Seahorse.jpg", "powerlevel": 30, "type": "Animals" },
+    { "name": "Penguin", "img": "/img/Penguin.jpg", "powerlevel": 300, "type": "Animals" },
+    { "name": "Eagle", "img": "/img/Eagle.jpg", "powerlevel": 800, "type": "Animals" },
+    { "name": "Hawk", "img": "/img/Hawk.jpg", "powerlevel": 600, "type": "Animals" },
+    { "name": "Falcon", "img": "/img/Falcon.jpg", "powerlevel": 700, "type": "Animals" },
+    { "name": "Owl", "img": "/img/Owl.jpg", "powerlevel": 400, "type": "Animals" },
+    { "name": "Vulture", "img": "/img/Vulture.jpg", "powerlevel": 350, "type": "Animals" },
+    { "name": "Parrot", "img": "/img/Parrot.jpg", "powerlevel": 200, "type": "Animals" },
+    { "name": "Crow", "img": "/img/Crow.jpg", "powerlevel": 250, "type": "Animals" },
+    { "name": "Raven", "img": "/img/Raven.jpg", "powerlevel": 300, "type": "Animals" },
+    { "name": "Swan", "img": "/img/Swan.jpg", "powerlevel": 400, "type": "Animals" },
+    { "name": "Duck", "img": "/img/Duck.jpg", "powerlevel": 200, "type": "Animals" },
+    { "name": "Goose", "img": "/img/Goose.jpg", "powerlevel": 300, "type": "Animals" },
+    { "name": "Turkey", "img": "/img/TurkeyAnimal.jpg", "powerlevel": 250, "type": "Animals" },
+    { "name": "Chicken", "img": "/img/Chicken.jpg", "powerlevel": 100, "type": "Animals" },
+    { "name": "Ostrich", "img": "/img/Ostrich.jpg", "powerlevel": 500, "type": "Animals" },
+    { "name": "Emu", "img": "/img/Emu.jpg", "powerlevel": 400, "type": "Animals" },
+    { "name": "Frog", "img": "/img/Frog.jpg", "powerlevel": 50, "type": "Animals" },
+    { "name": "Toad", "img": "/img/Toad.jpg", "powerlevel": 40, "type": "Animals" },
+    { "name": "Salamander", "img": "/img/Salamander.jpg", "powerlevel": 30, "type": "Animals" },
+    { "name": "Newt", "img": "/img/Newt.jpg", "powerlevel": 20, "type": "Animals" },
+    { "name": "Snake", "img": "/img/Snake.jpg", "powerlevel": 500, "type": "Animals" },
+    { "name": "Cobra", "img": "/img/Cobra.jpg", "powerlevel": 700, "type": "Animals" },
+    { "name": "Python", "img": "/img/Python.jpg", "powerlevel": 800, "type": "Animals" },
+    { "name": "Anaconda", "img": "/img/Anaconda.jpg", "powerlevel": 1200, "type": "Animals" },
+    { "name": "Rattlesnake", "img": "/img/Rattlesnake.jpg", "powerlevel": 450, "type": "Animals" },
+    { "name": "Gecko", "img": "/img/Gecko.jpg", "powerlevel": 50, "type": "Animals" },
+    { "name": "Iguana", "img": "/img/Iguana.jpg", "powerlevel": 150, "type": "Animals" },
+    { "name": "Chameleon", "img": "/img/Chameleon.jpg", "powerlevel": 100, "type": "Animals" },
+    { "name": "Tortoise", "img": "/img/Tortoise.jpg", "powerlevel": 300, "type": "Animals" },
+    { "name": "Sea Turtle", "img": "/img/Sea_Turtle.jpg", "powerlevel": 400, "type": "Animals" },
+    { "name": "Rabbit", "img": "/img/Rabbit.jpg", "powerlevel": 150, "type": "Animals" },
+    { "name": "Hare", "img": "/img/Hare.jpg", "powerlevel": 200, "type": "Animals" },
+    { "name": "Mouse", "img": "/img/Mouse.jpg", "powerlevel": 30, "type": "Animals" },
+    { "name": "Rat", "img": "/img/Rat.jpg", "powerlevel": 50, "type": "Animals" },
+    { "name": "Squirrel", "img": "/img/Squirrel.jpg", "powerlevel": 60, "type": "Animals" },
+    { "name": "Chipmunk", "img": "/img/Chipmunk.jpg", "powerlevel": 40, "type": "Animals" },
+
+    {
+        "name": "Donald Trump",
+        "img": "/img/Donald_Trump.jpg",
+        "powerlevel": 380,
+        "type": "Politicians"
+    },
+    {
+        "name": "Joe Biden",
+        "img": "/img/Joe_Biden.jpg",
+        "powerlevel": 330,
+        "type": "Politicians"
+    },
+    {
+        "name": "Vladimir Putin",
+        "img": "/img/Vladimir_Putin.jpg",
+        "powerlevel": 460,
+        "type": "Politicians"
+    },
+    {
+        "name": "Xi Jinping",
+        "img": "/img/Xi_Jinping.jpg",
+        "powerlevel": 420,
+        "type": "Politicians"
+    },
+    {
+        "name": "Emmanuel Macron",
+        "img": "/img/Emmanuel_Macron.jpg",
+        "powerlevel": 350,
+        "type": "Politicians"
+    },
+    {
+        "name": "Keir Starmer",
+        "img": "/img/Keir_Starmer.jpg",
+        "powerlevel": 340,
+        "type": "Politicians"
+    },
+    {
+        "name": "Friedrich Merz",
+        "img": "/img/Friedrich_Merz.jpg",
+        "powerlevel": 345,
+        "type": "Politicians"
+    },
+    {
+        "name": "Olaf Scholz",
+        "img": "/img/Olaf_Scholz.jpg",
+        "powerlevel": 335,
+        "type": "Politicians"
+    },
+    {
+        "name": "Pedro Sánchez",
+        "img": "/img/Pedro_Sánchez.jpg",
+        "powerlevel": 320,
+        "type": "Politicians"
+    },
+    {
+        "name": "Giorgia Meloni",
+        "img": "/img/Giorgia_Meloni.jpg",
+        "powerlevel": 325,
+        "type": "Politicians"
+    },
+    {
+        "name": "Justin Trudeau",
+        "img": "/img/Justin_Trudeau.jpg",
+        "powerlevel": 330,
+        "type": "Politicians"
+    },
+    {
+        "name": "Narendra Modi",
+        "img": "/img/Narendra_Modi.jpg",
+        "powerlevel": 370,
+        "type": "Politicians"
+    },
+    {
+        "name": "Jair Bolsonaro",
+        "img": "/img/Jair_Bolsonaro.jpg",
+        "powerlevel": 360,
+        "type": "Politicians"
+    },
+    {
+        "name": "Fumio Kishida",
+        "img": "/img/Fumio_Kishida.jpg",
+        "powerlevel": 310,
+        "type": "Politicians"
+    },
+    {
+        "name": "Shinzo Abe",
+        "img": "/img/Shinzo_Abe.jpg",
+        "powerlevel": 340,
+        "type": "Politicians"
+    },
+    {
+        "name": "King Charles III",
+        "img": "/img/King_Charles_III.jpg",
+        "powerlevel": 300,
+        "type": "Politicians"
+    },
+    {
+        "name": "King Felipe VI",
+        "img": "/img/King_Felipe_VI.jpg",
+        "powerlevel": 300,
+        "type": "Politicians"
+    },
+    {
+        "name": "Pope Francis",
+        "img": "/img/Pope_Francis.jpg",
+        "powerlevel": 260,
+        "type": "Politicians"
+    },
+    {
+        "name": "Recep Tayyip Erdoğan",
+        "img": "/img/Recep_Tayyip_Erdoğan.jpg",
+        "powerlevel": 360,
+        "type": "Politicians"
+    },
+    {
+        "name": "Benjamin Netanyahu",
+        "img": "/img/Benjamin_Netanyahu.jpg",
+        "powerlevel": 350,
+        "type": "Politicians"
+    },
+    {
+        "name": "Abdel Fattah el-Sisi",
+        "img": "/img/Abdel_Fattah_el-Sisi.jpg",
+        "powerlevel": 380,
+        "type": "Politicians"
+    },
+    {
+        "name": "Gustavo Petro",
+        "img": "/img/Gustavo_Petro.jpg",
+        "powerlevel": 310,
+        "type": "Politicians"
+    },
+    {
+        "name": "Bola Tinubu",
+        "img": "/img/Bola_Tinubu.jpg",
+        "powerlevel": 320,
+        "type": "Politicians"
+    },
+    {
+        "name": "Mark Carney",
+        "img": "/img/Mark_Carney.jpg",
+        "powerlevel": 300,
+        "type": "Politicians"
+    },
+    {
+        "name": "Ursula von der Leyen",
+        "img": "/img/Ursula_von_der_Leyen.jpg",
+        "powerlevel": 325,
+        "type": "Politicians"
+    },
+    {
+        "name": "Hasan Piker",
+        "img": "/img/Hasan_Piker.jpg",
+        "powerlevel": 280,
+        "type": "Politicians"
+    },
+    {
+        "name": "Destiny (Steven Bonnell II)",
+        "img": "/img/Destiny_Steven_Bonnell_II.jpg",
+        "powerlevel": 310,
+        "type": "Politicians"
+    },
+    {
+        "name": "Ben Shapiro",
+        "img": "/img/Ben_Shapiro.jpg",
+        "powerlevel": 320,
+        "type": "Politicians"
+    },
+    {
+        "name": "Charlie Kirk",
+        "img": "/img/Charlie_Kirk.jpg",
+        "powerlevel": 315,
+        "type": "Politicians"
+    },
+    {
+        "name": "Tim Pool",
+        "img": "/img/Tim_Pool.jpg",
+        "powerlevel": 310,
+        "type": "Politicians"
+    },
+    {
+        "name": "Candace Owens",
+        "img": "/img/Candace_Owens.jpg",
+        "powerlevel": 305,
+        "type": "Politicians"
+    },
+    {
+        "name": "Ana Kasparian",
+        "img": "/img/Ana_Kasparian.jpg",
+        "powerlevel": 275,
+        "type": "Politicians"
+    },
+    {
+        "name": "Krystal Ball",
+        "img": "/img/Krystal_Ball.jpg",
+        "powerlevel": 280,
+        "type": "Politicians"
+    },
+    {
+        "name": "David Pakman",
+        "img": "/img/David_Pakman.jpg",
+        "powerlevel": 285,
+        "type": "Politicians"
+    },
+    {
+        "name": "Joe Rogan",
+        "img": "/img/Joe_Rogan.jpg",
+        "powerlevel": 360,
+        "type": "Politicians"
+    },
+    {
+        "name": "Matt Walsh",
+        "img": "/img/Matt_Walsh.jpg",
+        "powerlevel": 300,
+        "type": "Politicians"
+    },
+    {
+        "name": "Tyler (Trainwreckstv)",
+        "img": "/img/Tyler_Trainwreckstv.jpg",
+        "powerlevel": 295,
+        "type": "Politicians"
+    },
+    {
+        "name": "Ben Habib",
+        "img": "/img/Ben_Habib.jpg",
+        "powerlevel": 300,
+        "type": "Politicians"
+    },
+    {
+        "name": "Lauren Southern",
+        "img": "/img/Lauren_Southern.jpg",
+        "powerlevel": 290,
+        "type": "Politicians"
+    },
+    {
+        "name": "Jordan B. Peterson",
+        "img": "/img/Jordan_B_Peterson.jpg",
+        "powerlevel": 340,
+        "type": "Politicians"
+    },
+    {
+        "name": "Sargon of Akkad (Carl Benjamin)",
+        "img": "/img/Sargon_of_Akkad_Carl_Benjamin.jpg",
+        "powerlevel": 300,
+        "type": "Politicians"
+    },
+    {
+        "name": "Jimmy Dore",
+        "img": "/img/Jimmy_Dore.jpg",
+        "powerlevel": 285,
+        "type": "Politicians"
+    },
+    {
+        "name": "Vaush",
+        "img": "/img/Vaush.jpg",
+        "powerlevel": 290,
+        "type": "Politicians"
+    },
+    {
+        "name": "Mark Dice",
+        "img": "/img/Mark_Dice.jpg",
+        "powerlevel": 280,
+        "type": "Politicians"
+    },
+    {
+        "name": "Damon Young (political commentator)",
+        "img": "/img/Damon_Young_political_commentator.jpg",
+        "powerlevel": 275,
+        "type": "Politicians"
+    },
+    {
+        "name": "Tim Pool",
+        "img": "/img/Tim_Pool.jpg",
+        "powerlevel": 310,
+        "type": "Politicians"
+    },
+    {
+        "name": "Sam Seder",
+        "img": "/img/Sam_Seder.jpg",
+        "powerlevel": 280,
+        "type": "Politicians"
+    },
+    {
+        "name": "Matt Taibbi",
+        "img": "/img/Matt_Taibbi.jpg",
+        "powerlevel": 290,
+        "type": "Politicians"
+    },
+    {
+        "name": "Glenn Greenwald",
+        "img": "/img/Glenn_Greenwald.jpg",
+        "powerlevel": 300,
+        "type": "Politicians"
+    },
+    {
+        "name": "Piers Morgan",
+        "img": "/img/Piers_Morgan.jpg",
+        "powerlevel": 305,
+        "type": "Politicians"
+    },
+    {
+        "name": "Tucker Carlson",
+        "img": "/img/Tucker_Carlson.jpg",
+        "powerlevel": 340,
+        "type": "Politicians"
+    },
+    {
+        "name": "Alex Jones",
+        "img": "/img/Alex_Jones.jpg",
+        "powerlevel": 330,
+        "type": "Politicians"
+    },
+    {
+        "name": "Rachel Maddow",
+        "img": "/img/Rachel_Maddow.jpg",
+        "powerlevel": 275,
+        "type": "Politicians"
+    },
+    {
+        "name": "Sean Hannity",
+        "img": "/img/Sean_Hannity.jpg",
+        "powerlevel": 320,
+        "type": "Politicians"
+    },
+    {
+        "name": "Anderson Cooper",
+        "img": "/img/Anderson_Cooper.jpg",
+        "powerlevel": 300,
+        "type": "Politicians"
+    },
+    {
+        "name": "Merrick Garland",
+        "img": "/img/Merrick_Garland.jpg",
+        "powerlevel": 310,
+        "type": "Politicians"
+    },
+    {
+        "name": "William Barr",
+        "img": "/img/William_Barr.jpg",
+        "powerlevel": 320,
+        "type": "Politicians"
+    },
+    {
+        "name": "James Comey",
+        "img": "/img/James_Comey.jpg",
+        "powerlevel": 305,
+        "type": "Politicians"
+    },
+    {
+        "name": "Robert Mueller",
+        "img": "/img/Robert_Mueller.jpg",
+        "powerlevel": 330,
+        "type": "Politicians"
+    },
+    {
+        "name": "Bannon (Steve Bannon)",
+        "img": "/img/Bannon_Steve_Bannon.jpg",
+        "powerlevel": 325,
+        "type": "Politicians"
+    },
+    {
+        "name": "Kellyanne Conway",
+        "img": "/img/Kellyanne_Conway.jpg",
+        "powerlevel": 290,
+        "type": "Politicians"
+    },
+    {
+        "name": "Stacey Abrams",
+        "img": "/img/Stacey_Abrams.jpg",
+        "powerlevel": 295,
+        "type": "Politicians"
+    },
+    {
+        "name": "AOC (Alexandria Ocasio-Cortez)",
+        "img": "/img/AOC_Alexandria_Ocasio-Cortez.jpg",
+        "powerlevel": 285,
+        "type": "Politicians"
+    },
+    {
+        "name": "Nancy Pelosi",
+        "img": "/img/Nancy_Pelosi.jpg",
+        "powerlevel": 300,
+        "type": "Politicians"
+    },
+    {
+        "name": "Mitch McConnell",
+        "img": "/img/Mitch_McConnell.jpg",
+        "powerlevel": 305,
+        "type": "Politicians"
+    },
+    {
+        "name": "Anthony Fauci",
+        "img": "/img/Anthony_Fauci.jpg",
+        "powerlevel": 270,
+        "type": "Politicians"
+    },
+    {
+        "name": "Robert F. Kennedy Jr.",
+        "img": "/img/Robert_F_Kennedy_Jr.jpg",
+        "powerlevel": 300,
+        "type": "Politicians"
+    },
+    {
+        "name": "Michael Flynn",
+        "img": "/img/Michael_Flynn.jpg",
+        "powerlevel": 320,
+        "type": "Politicians"
+    },
+    {
+        "name": "Eliot Spitzer",
+        "img": "/img/Eliot_Spitzer.jpg",
+        "powerlevel": 295,
+        "type": "Politicians"
+    },
+    {
+        "name": "Rudy Giuliani",
+        "img": "/img/Rudy_Giuliani.jpg",
+        "powerlevel": 310,
+        "type": "Politicians"
+    },
+    {
+        "name": "Vivek Ramaswamy",
+        "img": "/img/Vivek_Ramaswamy.jpg",
+        "powerlevel": 315,
+        "type": "Politicians"
+    },
+    {
+        "name": "Tulsi Gabbard",
+        "img": "/img/Tulsi_Gabbard.jpg",
+        "powerlevel": 300,
+        "type": "Politicians"
+    },
+    {
+        "name": "Nate Silver",
+        "img": "/img/Nate_Silver.jpg",
+        "powerlevel": 260,
+        "type": "Politicians"
+    },
+    {
+        "name": "George Stephanopoulos",
+        "img": "/img/George_Stephanopoulos.jpg",
+        "powerlevel": 275,
+        "type": "Politicians"
+    },
+    {
+        "name": "André Ventura",
+        "img": "/img/André_Ventura.jpg",
+        "powerlevel": 305,
+        "type": "Politicians"
+    },
+    {
+        "name": "Franklin D. Roosevelt",
+        "img": "/img/Franklin_D_Roosevelt.jpg",
+        "powerlevel": 360,
+        "type": "Politicians"
+    },
+    {
+        "name": "Theodore Roosevelt",
+        "img": "/img/Theodore_Roosevelt.jpg",
+        "powerlevel": 390,
+        "type": "Politicians"
+    },
+    {
+        "name": "Abraham Lincoln",
+        "img": "/img/Abraham_Lincoln.jpg",
+        "powerlevel": 350,
+        "type": "Politicians"
+    },
+    {
+        "name": "George Washington",
+        "img": "/img/George_Washington.jpg",
+        "powerlevel": 345,
+        "type": "Politicians"
+    },
+    {
+        "name": "John F. Kennedy",
+        "img": "/img/John_F_Kennedy.jpg",
+        "powerlevel": 335,
+        "type": "Politicians"
+    },
+    {
+        "name": "Ronald Reagan",
+        "img": "/img/Ronald_Reagan.jpg",
+        "powerlevel": 330,
+        "type": "Politicians"
+    },
+    {
+        "name": "Bill Clinton",
+        "img": "/img/Bill_Clinton.jpg",
+        "powerlevel": 320,
+        "type": "Politicians"
+    },
+    {
+        "name": "Richard Nixon",
+        "img": "/img/Richard_Nixon.jpg",
+        "powerlevel": 315,
+        "type": "Politicians"
+    },
+    {
+        "name": "Harry S. Truman",
+        "img": "/img/Harry_S_Truman.jpg",
+        "powerlevel": 325,
+        "type": "Politicians"
+    },
+    {
+        "name": "Dwight D. Eisenhower",
+        "img": "/img/Dwight_D_Eisenhower.jpg",
+        "powerlevel": 340,
+        "type": "Politicians"
+    },
+    {
+        "name": "Woodrow Wilson",
+        "img": "/img/Woodrow_Wilson.jpg",
+        "powerlevel": 300,
+        "type": "Politicians"
+    },
+    {
+        "name": "Thomas Jefferson",
+        "img": "/img/Thomas_Jefferson.jpg",
+        "powerlevel": 305,
+        "type": "Politicians"
+    },
+    {
+        "name": "Andrew Jackson",
+        "img": "/img/Andrew_Jackson.jpg",
+        "powerlevel": 350,
+        "type": "Politicians"
+    },
+    {
+        "name": "Ulysses S. Grant",
+        "img": "/img/Ulysses_S_Grant.jpg",
+        "powerlevel": 345,
+        "type": "Politicians"
+    },
+    {
+        "name": "Herbert Hoover",
+        "img": "/img/Herbert_Hoover.jpg",
+        "powerlevel": 290,
+        "type": "Politicians"
+    },
+    {
+        "name": "Jimmy Carter",
+        "img": "/img/Jimmy_Carter.jpg",
+        "powerlevel": 280,
+        "type": "Politicians"
+    },
+    {
+        "name": "Lyndon B. Johnson",
+        "img": "/img/Lyndon_B_Johnson.jpg",
+        "powerlevel": 330,
+        "type": "Politicians"
+    },
+    {
+        "name": "Grover Cleveland",
+        "img": "/img/Grover_Cleveland.jpg",
+        "powerlevel": 300,
+        "type": "Politicians"
+    },
+    {
+        "name": "Woodrow Wilson",
+        "img": "/img/Woodrow_Wilson.jpg",
+        "powerlevel": 300,
+        "type": "Politicians"
+    },
+    {
+        "name": "Calvin Coolidge",
+        "img": "/img/Calvin_Coolidge.jpg",
+        "powerlevel": 280,
+        "type": "Politicians"
+    },
+    {
+        "name": "James Madison",
+        "img": "/img/James_Madison.jpg",
+        "powerlevel": 290,
+        "type": "Politicians"
+    },
+    {
+        "name": "James Monroe",
+        "img": "/img/James_Monroe.jpg",
+        "powerlevel": 300,
+        "type": "Politicians"
+    },
+    {
+        "name": "Benjamin Franklin",
+        "img": "/img/Benjamin_Franklin.jpg",
+        "powerlevel": 310,
+        "type": "Politicians"
+    },
+    {
+        "name": "The 26th Amendment (placeholder)",
+        "img": "/img/The_26th_Amendment_placeholder.jpg",
+        "powerlevel": 1,
+        "type": "Politicians"
+    },
+    {
+        "name": "Herbert Hoover (duplicate placeholder removed)",
+        "img": "/img/Herbert_Hoover_duplicate_placeholder_removed.jpg",
+        "powerlevel": 290,
+        "type": "Politicians"
+    },
+    {
+        "name": "Julius Caesar",
+        "img": "/img/Julius_Caesar.jpg",
+        "powerlevel": 900,
+        "type": "Politicians"
+    },
+    {
+        "name": "Alexander the Great",
+        "img": "/img/Alexander_the_Great.jpg",
+        "powerlevel": 920,
+        "type": "Politicians"
+    },
+    {
+        "name": "Genghis Khan",
+        "img": "/img/Genghis_Khan.jpg",
+        "powerlevel": 950,
+        "type": "Politicians"
+    },
+    {
+        "name": "Napoleon Bonaparte",
+        "img": "/img/Napoleon_Bonaparte.jpg",
+        "powerlevel": 880,
+        "type": "Politicians"
+    },
+    {
+        "name": "Winston Churchill",
+        "img": "/img/Winston_Churchill.jpg",
+        "powerlevel": 420,
+        "type": "Politicians"
+    },
+    {
+        "name": "Queen Elizabeth I",
+        "img": "/img/Queen_Elizabeth_I.jpg",
+        "powerlevel": 280,
+        "type": "Politicians"
+    },
+    {
+        "name": "Queen Victoria",
+        "img": "/img/Queen_Victoria.jpg",
+        "powerlevel": 290,
+        "type": "Politicians"
+    },
+    {
+        "name": "Catherine the Great",
+        "img": "/img/Catherine_the_Great.jpg",
+        "powerlevel": 300,
+        "type": "Politicians"
+    },
+    {
+        "name": "Attila the Hun",
+        "img": "/img/Attila_the_Hun.jpg",
+        "powerlevel": 860,
+        "type": "Politicians"
+    },
+    {
+        "name": "Hammurabi",
+        "img": "/img/Hammurabi.jpg",
+        "powerlevel": 700,
+        "type": "Politicians"
+    },
+    {
+        "name": "Augustus (Octavian)",
+        "img": "/img/Augustus_Octavian.jpg",
+        "powerlevel": 820,
+        "type": "Politicians"
+    },
+    {
+        "name": "Marcus Aurelius",
+        "img": "/img/Marcus_Aurelius.jpg",
+        "powerlevel": 600,
+        "type": "Politicians"
+    },
+    {
+        "name": "Leonidas I (Sparta)",
+        "img": "/img/Leonidas_I_Sparta.jpg",
+        "powerlevel": 880,
+        "type": "Politicians"
+    },
+    {
+        "name": "Saladin",
+        "img": "/img/Saladin.jpg",
+        "powerlevel": 820,
+        "type": "Politicians"
+    },
+    {
+        "name": "Charlemagne",
+        "img": "/img/Charlemagne.jpg",
+        "powerlevel": 800,
+        "type": "Politicians"
+    },
+    {
+        "name": "Ivan the Terrible",
+        "img": "/img/Ivan_the_Terrible.jpg",
+        "powerlevel": 750,
+        "type": "Politicians"
+    },
+    {
+        "name": "Peter the Great",
+        "img": "/img/Peter_the_Great.jpg",
+        "powerlevel": 740,
+        "type": "Politicians"
+    },
+    {
+        "name": "Shaka Zulu",
+        "img": "/img/Shaka_Zulu.jpg",
+        "powerlevel": 820,
+        "type": "Politicians"
+    },
+    {
+        "name": "Tokugawa Ieyasu",
+        "img": "/img/Tokugawa_Ieyasu.jpg",
+        "powerlevel": 720,
+        "type": "Politicians"
+    },
+    {
+        "name": "Emperor Qin Shi Huang",
+        "img": "/img/Emperor_Qin_Shi_Huang.jpg",
+        "powerlevel": 800,
+        "type": "Politicians"
+    },
+    {
+        "name": "King Henry VIII",
+        "img": "/img/King_Henry_VIII.jpg",
+        "powerlevel": 430,
+        "type": "Politicians"
+    },
+    {
+        "name": "Cyrus the Great",
+        "img": "/img/Cyrus_the_Great.jpg",
+        "powerlevel": 820,
+        "type": "Politicians"
+    },
+    {
+        "name": "Pericles",
+        "img": "/img/Pericles.jpg",
+        "powerlevel": 600,
+        "type": "Politicians"
+    },
+    {
+        "name": "Simon Bolivar",
+        "img": "/img/Simon_Bolivar.jpg",
+        "powerlevel": 660,
+        "type": "Politicians"
+    },
+    {
+        "name": "Vladimir Lenin",
+        "img": "/img/Vladimir_Lenin.jpg",
+        "powerlevel": 500,
+        "type": "Politicians"
+    },
+    {
+        "name": "Joseph Stalin",
+        "img": "/img/Joseph_Stalin.jpg",
+        "powerlevel": 520,
+        "type": "Politicians"
+    },
+    {
+        "name": "Mao Zedong",
+        "img": "/img/Mao_Zedong.jpg",
+        "powerlevel": 510,
+        "type": "Politicians"
+    },
+    {
+        "name": "Ataturk (Mustafa Kemal)",
+        "img": "/img/Ataturk_Mustafa_Kemal.jpg",
+        "powerlevel": 620,
+        "type": "Politicians"
+    },
+    {
+        "name": "Benito Mussolini",
+        "img": "/img/Benito_Mussolini.jpg",
+        "powerlevel": 480,
+        "type": "Politicians"
+    },
+    {
+        "name": "Francisco Franco",
+        "img": "/img/Francisco_Franco.jpg",
+        "powerlevel": 470,
+        "type": "Politicians"
+    },
+    {
+        "name": "Otto von Bismarck",
+        "img": "/img/Otto_von_Bismarck.jpg",
+        "powerlevel": 550,
+        "type": "Politicians"
+    },
+    {
+        "name": "Suleiman the Magnificent",
+        "img": "/img/Suleiman_the_Magnificent.jpg",
+        "powerlevel": 780,
+        "type": "Politicians"
+    },
+    {
+        "name": "Philip II of Spain",
+        "img": "/img/Philip_II_of_Spain.jpg",
+        "powerlevel": 500,
+        "type": "Politicians"
+    },
+    {
+        "name": "Louis XIV of France",
+        "img": "/img/Louis_XIV_of_France.jpg",
+        "powerlevel": 700,
+        "type": "Politicians"
+    },
+    {
+        "name": "Elizabeth II",
+        "img": "/img/Elizabeth_II.jpg",
+        "powerlevel": 300,
+        "type": "Politicians"
+    },
+    {
+        "name": "Ptolemy I Soter",
+        "img": "/img/Ptolemy_I_Soter.jpg",
+        "powerlevel": 680,
+        "type": "Politicians"
+    },
+    {
+        "name": "Hannibal Barca",
+        "img": "/img/Hannibal_Barca.jpg",
+        "powerlevel": 780,
+        "type": "Politicians"
+    },
+    {
+        "name": "Ramses II",
+        "img": "/img/Ramses_II.jpg",
+        "powerlevel": 760,
+        "type": "Politicians"
+    },
+    {
+        "name": "Tamerlane (Timur)",
+        "img": "/img/Tamerlane_Timur.jpg",
+        "powerlevel": 890,
+        "type": "Politicians"
+    },
+    {
+        "name": "Cleopatra",
+        "img": "/img/Cleopatra.jpg",
+        "powerlevel": 330,
+        "type": "Politicians"
+    },
+    {
+        "name": "Eleanor of Aquitaine",
+        "img": "/img/Eleanor_of_Aquitaine.jpg",
+        "powerlevel": 320,
+        "type": "Politicians"
+    },
+    {
+        "name": "Marcus Licinius Crassus",
+        "img": "/img/Marcus_Licinius_Crassus.jpg",
+        "powerlevel": 650,
+        "type": "Politicians"
+    },
+    {
+        "name": "Nefertiti",
+        "img": "/img/Nefertiti.jpg",
+        "powerlevel": 300,
+        "type": "Politicians"
+    },
+    {
+        "name": "Sargon of Akkad",
+        "img": "/img/Sargon_of_Akkad.jpg",
+        "powerlevel": 700,
+        "type": "Politicians"
+    },
+    {
+        "name": "James II of England",
+        "img": "/img/James_II_of_England.jpg",
+        "powerlevel": 320,
+        "type": "Politicians"
+    },
+    {
+        "name": "Phillip II (Macedon)",
+        "img": "/img/Phillip_II_Macedon.jpg",
+        "powerlevel": 780,
+        "type": "Politicians"
+    },
+    {
+        "name": "Emperor Hadrian",
+        "img": "/img/Emperor_Hadrian.jpg",
+        "powerlevel": 600,
+        "type": "Politicians"
+    },
+    {
+        "name": "King John (of England)",
+        "img": "/img/King_John_of_England.jpg",
+        "powerlevel": 300,
+        "type": "Politicians"
+    },
+    {
+        "name": "Peter I of Russia",
+        "img": "/img/Peter_I_of_Russia.jpg",
+        "powerlevel": 740,
+        "type": "Politicians"
+    },
+    {
+        "name": "Josip Broz Tito",
+        "img": "/img/Josip_Broz_Tito.jpg",
+        "powerlevel": 520,
+        "type": "Politicians"
+    },
+
+      {"name": "SpongeBob SquarePants", "img": "/img/SpongeBob_SquarePants.png", "powerlevel": 8, "type": "Cartoons"},
+  {"name": "Patrick Star", "img": "/img/Patrick_Star.png", "powerlevel": 6, "type": "Cartoons"},
+  {"name": "Squidward Tentacles", "img": "/img/Squidward_Tentacles.jpg", "powerlevel": 4, "type": "Cartoons"},
+  {"name": "Mr. Krabs", "img": "/img/Mr._Krabs.png", "powerlevel": 7, "type": "Cartoons"},
+  {"name": "Plankton", "img": "/img/Plankton.png", "powerlevel": 3, "type": "Cartoons"},
+  {"name": "Sandy Cheeks", "img": "/img/Sandy_Cheeks.png", "powerlevel": 15, "type": "Cartoons"},
+  {"name": "Larry the Lobster", "img": "/img/Larry_the_Lobster.png", "powerlevel": 20, "type": "Cartoons"},
+  {"name": "Gary the Snail", "img": "/img/Gary_the_Snail.jpg", "powerlevel": 2, "type": "Cartoons"},
+  {"name": "Peter Griffin", "img": "/img/Peter_Griffin.jpg", "powerlevel": 250, "type": "Cartoons"},
+  {"name": "Lois Griffin", "img": "/img/Lois_Griffin.png", "powerlevel": 180, "type": "Cartoons"},
+  {"name": "Stewie Griffin", "img": "/img/Stewie_Griffin.png", "powerlevel": 300, "type": "Cartoons"},
+  {"name": "Brian Griffin", "img": "/img/Brian_Griffin.png", "powerlevel": 160, "type": "Cartoons"},
+  {"name": "Meg Griffin", "img": "/img/Meg_Griffin.png", "powerlevel": 90, "type": "Cartoons"},
+  {"name": "Chris Griffin", "img": "/img/Chris_Griffin.png", "powerlevel": 140, "type": "Cartoons"},
+  {"name": "Glenn Quagmire", "img": "/img/Glenn_Quagmire.png", "powerlevel": 170, "type": "Cartoons"},
+  {"name": "Cleveland Brown", "img": "/img/Cleveland_Brown.png", "powerlevel": 150, "type": "Cartoons"},
+  {"name": "Joe Swanson", "img": "/img/Joe_Swanson.png", "powerlevel": 220, "type": "Cartoons"},
+  {"name": "Herbert the Pervert", "img": "/img/Herbert_the_Pervert.png", "powerlevel": 90, "type": "Cartoons"},
+  {"name": "The Giant Chicken", "img": "/img/The_Giant_Chicken.png", "powerlevel": 500, "type": "Cartoons"},
+  {"name": "Homer Simpson", "img": "/img/Homer_Simpson.png", "powerlevel": 230, "type": "Cartoons"},
+  {"name": "Marge Simpson", "img": "/img/Marge_Simpson.png", "powerlevel": 160, "type": "Cartoons"},
+  {"name": "Bart Simpson", "img": "/img/Bart_Simpson.png", "powerlevel": 120, "type": "Cartoons"},
+  {"name": "Lisa Simpson", "img": "/img/Lisa_Simpson.png", "powerlevel": 110, "type": "Cartoons"},
+  {"name": "Maggie Simpson", "img": "/img/Maggie_Simpson.png", "powerlevel": 60, "type": "Cartoons"},
+  {"name": "Ned Flanders", "img": "/img/Ned_Flanders.png", "powerlevel": 140, "type": "Cartoons"},
+  {"name": "Mr. Burns", "img": "/img/Mr._Burns.png", "powerlevel": 90, "type": "Cartoons"},
+  {"name": "Smithers", "img": "/img/Smithers.png", "powerlevel": 80, "type": "Cartoons"},
+  {"name": "Chief Wiggum", "img": "/img/Chief_Wiggum.png", "powerlevel": 130, "type": "Cartoons"},
+  {"name": "Milhouse Van Houten", "img": "/img/Milhouse_Van_Houten.png", "powerlevel": 50, "type": "Cartoons"},
+  {"name": "Adventure Time Finn", "img": "/img/Adventure_Time_Finn.jpg", "powerlevel": 300, "type": "Cartoons"},
+  {"name": "Jake the Dog", "img": "/img/Jake_the_Dog.jpg", "powerlevel": 400, "type": "Cartoons"},
+  {"name": "Princess Bubblegum", "img": "/img/Princess_Bubblegum.png", "powerlevel": 350, "type": "Cartoons"},
+  {"name": "Marceline the Vampire Queen", "img": "/img/Marceline_the_Vampire_Queen.png", "powerlevel": 600, "type": "Cartoons"},
+  {"name": "Ice King", "img": "/img/Ice_King.png", "powerlevel": 700, "type": "Cartoons"},
+  {"name": "Lumpy Space Princess", "img": "/img/Lumpy_Space_Princess.png", "powerlevel": 90, "type": "Cartoons"},
+  {"name": "Gumball Watterson", "img": "/img/Gumball_Watterson.png", "powerlevel": 150, "type": "Cartoons"},
+  {"name": "Darwin Watterson", "img": "/img/Darwin_Watterson.png", "powerlevel": 140, "type": "Cartoons"},
+  {"name": "Nicole Watterson", "img": "/img/Nicole_Watterson.png", "powerlevel": 280, "type": "Cartoons"},
+  {"name": "Richard Watterson", "img": "/img/Richard_Watterson.png", "powerlevel": 200, "type": "Cartoons"},
+  {"name": "Penny Fitzgerald", "img": "/img/Penny_Fitzgerald.png", "powerlevel": 180, "type": "Cartoons"},
+  {"name": "Ben Tennyson", "img": "/img/Ben_Tennyson.png", "powerlevel": 5000, "type": "Cartoons"},
+  {"name": "Gwen Tennyson", "img": "/img/Gwen_Tennyson.png", "powerlevel": 2000, "type": "Cartoons"},
+  {"name": "Kevin Levin", "img": "/img/Kevin_Levin.png", "powerlevel": 1500, "type": "Cartoons"},
+  {"name": "Vilgax", "img": "/img/Vilgax.png", "powerlevel": 8000, "type": "Cartoons"},
+  {"name": "Four Arms", "img": "/img/Four_Arms.png", "powerlevel": 3000, "type": "Cartoons"},
+  {"name": "Heatblast", "img": "/img/Heatblast.png", "powerlevel": 2800, "type": "Cartoons"},
+  {"name": "Diamondhead", "img": "/img/Diamondhead.png", "powerlevel": 3200, "type": "Cartoons"},
+  {"name": "Omnitrix Alien X", "img": "/img/Omnitrix_Alien_X.png", "powerlevel": 999999, "type": "Cartoons"},
+  {"name": "Rick Sanchez", "img": "/img/Rick_Sanchez.png", "powerlevel": 15000, "type": "Cartoons"},
+  {"name": "Morty Smith", "img": "/img/Morty_Smith.png", "powerlevel": 200, "type": "Cartoons"},
+  {"name": "Summer Smith", "img": "/img/Summer_Smith.png", "powerlevel": 180, "type": "Cartoons"},
+  {"name": "Jerry Smith", "img": "/img/Jerry_Smith.png", "powerlevel": 90, "type": "Cartoons"},
+  {"name": "Beth Smith", "img": "/img/Beth_Smith.png", "powerlevel": 250, "type": "Cartoons"},
+  {"name": "Mr. Poopybutthole", "img": "/img/Mr._Poopybutthole.jpg", "powerlevel": 1200, "type": "Cartoons"},
+  {"name": "Evil Morty", "img": "/img/Evil_Morty.jpg", "powerlevel": 8000, "type": "Cartoons"},
+  {"name": "Rick Prime", "img": "/img/Rick_Prime.png", "powerlevel": 12000, "type": "Cartoons"},
+  {"name": "Bender", "img": "/img/Bender.png", "powerlevel": 500, "type": "Cartoons"},
+  {"name": "Fry", "img": "/img/Fry.png", "powerlevel": 220, "type": "Cartoons"},
+  {"name": "Leela", "img": "/img/Leela.png", "powerlevel": 350, "type": "Cartoons"},
+  {"name": "Professor Farnsworth", "img": "/img/Professor_Farnsworth.png", "powerlevel": 180, "type": "Cartoons"},
+  {"name": "Zoidberg", "img": "/img/Zoidberg.png", "powerlevel": 140, "type": "Cartoons"},
+  {"name": "Finn’s Grass Sword", "img": "/img/Finns_Grass_Sword.png", "powerlevel": 700, "type": "Cartoons"},
+  {"name": "Ice Bear", "img": "/img/Ice_Bear.png", "powerlevel": 250, "type": "Cartoons"},
+  {"name": "Grizzly", "img": "/img/Grizzly.png", "powerlevel": 220, "type": "Cartoons"},
+  {"name": "Panda", "img": "/img/Panda.jpg", "powerlevel": 200, "type": "Cartoons"},
+  {"name": "Mordecai", "img": "/img/Mordecai.png", "powerlevel": 250, "type": "Cartoons"},
+  {"name": "Rigby", "img": "/img/Rigby.png", "powerlevel": 240, "type": "Cartoons"},
+  {"name": "Benson", "img": "/img/Benson.png", "powerlevel": 210, "type": "Cartoons"},
+  {"name": "Pops", "img": "/img/Pops.png", "powerlevel": 9000, "type": "Cartoons"},
+  {"name": "Skips", "img": "/img/Skips.png", "powerlevel": 2000, "type": "Cartoons"},
+  {"name": "Muscle Man", "img": "/img/Muscle_Man.png", "powerlevel": 400, "type": "Cartoons"},
+  {"name": "High Five Ghost", "img": "/img/High_Five_Ghost.png", "powerlevel": 180, "type": "Cartoons"},
+  {"name": "Tom Cat", "img": "/img/Tom_Cat.png", "powerlevel": 50, "type": "Cartoons"},
+  {"name": "Jerry Mouse", "img": "/img/Jerry_Mouse.png", "powerlevel": 45, "type": "Cartoons"},
+  {"name": "Bugs Bunny", "img": "/img/Bugs_Bunny.jpg", "powerlevel": 800, "type": "Cartoons"},
+  {"name": "Daffy Duck", "img": "/img/Daffy_Duck.jpg", "powerlevel": 400, "type": "Cartoons"},
+  {"name": "Tweety", "img": "/img/Tweety.jpg", "powerlevel": 30, "type": "Cartoons"},
+  {"name": "Sylvester", "img": "/img/Sylvester.png", "powerlevel": 70, "type": "Cartoons"},
+  {"name": "Road Runner", "img": "/img/Road_Runner.png", "powerlevel": 150, "type": "Cartoons"},
+  {"name": "Wile E. Coyote", "img": "/img/Wile_E._Coyote.jpg", "powerlevel": 160, "type": "Cartoons"},
+  {"name": "Shaggy Rogers", "img": "/img/Shaggy_Rogers.png", "powerlevel": 1000000, "type": "Cartoons"},
+  {"name": "Scooby-Doo", "img": "/img/Scooby-Doo.jpg", "powerlevel": 120, "type": "Cartoons"},
+  {"name": "Velma Dinkley", "img": "/img/Velma_Dinkley.png", "powerlevel": 100, "type": "Cartoons"},
+  {"name": "Daphne Blake", "img": "/img/Daphne_Blake.png", "powerlevel": 90, "type": "Cartoons"},
+  {"name": "Fred Jones", "img": "/img/Fred_Jones.png", "powerlevel": 130, "type": "Cartoons"},
+  {"name": "Johnny Bravo", "img": "/img/Johnny_Bravo.png", "powerlevel": 250, "type": "Cartoons"},
+  {"name": "Dexter", "img": "/img/Dexter.jpg", "powerlevel": 400, "type": "Cartoons"},
+  {"name": "Dee Dee", "img": "/img/Dee_Dee.png", "powerlevel": 150, "type": "Cartoons"},
+  {"name": "Samurai Jack", "img": "/img/Samurai_Jack.png", "powerlevel": 8000, "type": "Cartoons"},
+  {"name": "Aku", "img": "/img/Aku.jpg", "powerlevel": 9000, "type": "Cartoons"},
+  {"name": "Powerpuff Blossom", "img": "/img/Powerpuff_Blossom.png", "powerlevel": 4000, "type": "Cartoons"},
+  {"name": "Powerpuff Bubbles", "img": "/img/Powerpuff_Bubbles.png", "powerlevel": 3800, "type": "Cartoons"},
+  {"name": "Powerpuff Buttercup", "img": "/img/Powerpuff_Buttercup.png", "powerlevel": 3900, "type": "Cartoons"},
+  {"name": "Mojo Jojo", "img": "/img/Mojo_Jojo.png", "powerlevel": 2500, "type": "Cartoons"},
+  {"name": "Ed", "img": "/img/Ed.png", "powerlevel": 200, "type": "Cartoons"},
+  {"name": "Edd (Double D)", "img": "/img/Edd_(Double_D).png", "powerlevel": 180, "type": "Cartoons"},
+  {"name": "Eddy", "img": "/img/Eddy.jpg", "powerlevel": 190, "type": "Cartoons"},
+  {"name": "Courage the Cowardly Dog", "img": "/img/Courage_the_Cowardly_Dog.png", "powerlevel": 400, "type": "Cartoons"},
+  {"name": "Grim Reaper", "img": "/img/Grim_Reaper.jpg", "powerlevel": 10000, "type": "Cartoons"}
+
+]
