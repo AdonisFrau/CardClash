@@ -25,6 +25,9 @@
 - [x] Add Image Fallback (Placeholder.png)
 - [x] Category Checkboxes in UI
 - [x] Backend Deck Generator filtering by allowedTypes
-- [ ] Relocate Checkboxes to Room Setup screen
-- [ ] Add Strict Mode Toggle
-- [ ] Backend Strict Mode Logic
+- [x] Relocate Checkboxes to Room Setup screen
+- [x] Add Strict Mode Toggle
+- [x] Backend Strict Mode Logic
+- [x] Mobile Header Scroll
+- [x] Mobile Hand Scrolling
+- [x] Mobile Select-to-Play Flow
