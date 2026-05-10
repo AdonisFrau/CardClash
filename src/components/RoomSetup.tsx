@@ -1,4 +1,4 @@
-import React from 'react';
+import type { FC } from 'react';
 
 interface RoomSetupProps {
   allowedTypes: string[];
@@ -9,7 +9,7 @@ interface RoomSetupProps {
   onCancel: () => void;
 }
 
-export const RoomSetup: React.FC<RoomSetupProps> = ({ 
+export const RoomSetup: FC<RoomSetupProps> = ({ 
   allowedTypes, setAllowedTypes, isStrictMode, setIsStrictMode, onLaunch, onCancel 
 }) => {
   const allTypes = ['Anime', 'Animals', 'Politicians', 'Countries', 'Celebrities', 'Cartoons', 'Other', 'Everything'];
@@ -58,18 +58,24 @@ export const RoomSetup: React.FC<RoomSetupProps> = ({
            </div>
            
            <button 
-             className={`relative w-14 h-7 rounded-full transition-colors flex items-center px-1 ${isStrictMode ? 'bg-gaming-red shadow-[0_0_10px_#ef4444]' : 'bg-gray-800'}`}
-             onClick={() => setIsStrictMode(!isStrictMode)}
+              className={`relative w-14 h-7 rounded-full transition-colors flex items-center px-1 ${isStrictMode ? 'bg-gaming-red shadow-[0_0_10px_#ef4444]' : 'bg-gray-800'}`}
+              onPointerDown={(e) => { e.preventDefault(); setIsStrictMode(!isStrictMode); }}
            >
-              <div className={`w-5 h-5 bg-white rounded-full transition-transform ${isStrictMode ? 'translate-x-7' : 'translate-x-0'}`}></div>
+               <div className={`w-5 h-5 bg-white rounded-full transition-transform ${isStrictMode ? 'translate-x-7' : 'translate-x-0'}`}></div>
            </button>
         </div>
 
         <div className="flex gap-4">
-          <button className="btn flex-1 border-gray-600 text-gray-400 hover:bg-gray-800 hover:text-white" onClick={onCancel}>
+          <button 
+            className="btn flex-1 border-gray-600 text-gray-400 hover:bg-gray-800 hover:text-white" 
+            onPointerDown={(e) => { e.preventDefault(); onCancel(); }}
+          >
             Cancel
           </button>
-          <button className="btn flex-1" onClick={onLaunch}>
+          <button 
+            className="btn flex-1" 
+            onPointerDown={(e) => { e.preventDefault(); onLaunch(); }}
+          >
             Launch Room
           </button>
         </div>

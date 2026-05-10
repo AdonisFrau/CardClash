@@ -12,6 +12,9 @@
   /* Eliminate 300ms tap delay on mobile for all interactive elements */
   button, a, label, [role="button"] {
     touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-select: none;
   }
 }
 
