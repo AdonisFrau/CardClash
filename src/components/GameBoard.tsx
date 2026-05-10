@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import type { GameState } from '../types';
 import { Card } from './Card';
 import { AnimatePresence, motion } from 'framer-motion';

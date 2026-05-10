@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { io, Socket } from 'socket.io-client';
 import { MainMenu } from './components/MainMenu';
 import { Lobby } from './components/Lobby';
