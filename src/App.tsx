@@ -6,9 +6,15 @@ import { GameBoard } from './components/GameBoard';
 import { RoomSetup } from './components/RoomSetup';
 import type { GameState } from './types';
 
-// For local testing, default to localhost:3001
-// In production, this should point to the production server URL
-const SERVER_URL = 'http://localhost:3001';
+// Auto-detect server URL:
+// - In production (Netlify etc): use VITE_SERVER_URL env var
+// - In local dev from PC browser: use localhost:3001
+// - In local dev from phone on same network: Vite --host exposes the IP, use that
+const SERVER_URL = 
+  import.meta.env.VITE_SERVER_URL ||
+  (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+    ? 'http://localhost:3001'
+    : `http://${window.location.hostname}:3001`);
 
 type AppState = 'menu' | 'setup' | 'lobby' | 'game' | 'gameover';
 
