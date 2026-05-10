@@ -12,10 +12,13 @@ const app = express();
 const httpServer = createServer(app);
 const io = new Server(httpServer, {
   cors: {
-    origin: "*", // Adjust for production
+    origin: "*",
     methods: ["GET", "POST"]
   }
 });
+
+// Serve a health-check endpoint so Railway knows the server is alive
+app.get('/', (req, res) => res.send('NewGen Royale Server Running'));
 
 // Game State Storage
 // rooms[roomCode] = { players, deck, discardPile, turnIndex, direction, roundCounter, ... }
@@ -459,7 +462,7 @@ function getPublicGameState(room) {
   };
 }
 
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 httpServer.listen(PORT, () => {
   console.log(`Socket.IO Server running on port ${PORT}`);
 });
