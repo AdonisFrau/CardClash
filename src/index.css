@@ -8,6 +8,11 @@
     @apply bg-gaming-bg text-white font-sans min-h-screen overflow-hidden;
     background-image: radial-gradient(circle at center, #1a0505 0%, #050505 100%);
   }
+
+  /* Eliminate 300ms tap delay on mobile for all interactive elements */
+  button, a, label, [role="button"] {
+    touch-action: manipulation;
+  }
 }
 
 @layer components {
