@@ -41,11 +41,15 @@ const CARD_TYPES = [
 const SPECIAL_CARDS = ["Block", "Loopback", "+2", "+4"];
 
 // Helper to generate a full deck
-function generateDeck() {
-  let deck = [...rawDeck].map(card => ({ ...card, isSpecial: false }));
+function generateDeck(allowedTypes = CARD_TYPES) {
+  if (!allowedTypes || allowedTypes.length === 0) allowedTypes = CARD_TYPES;
+
+  let deck = [...rawDeck]
+    .filter(card => allowedTypes.includes(card.type))
+    .map(card => ({ ...card, isSpecial: false }));
   
-  // Add special cards (say, 2 of each special card per type)
-  CARD_TYPES.forEach(type => {
+  // Add special cards only for allowed types
+  allowedTypes.forEach(type => {
     SPECIAL_CARDS.forEach(specialName => {
       // Add 2 copies of each
       deck.push({ name: specialName, type, isSpecial: true, powerlevel: -1 });
@@ -74,11 +78,11 @@ function generateRoomCode() {
 io.on('connection', (socket) => {
   console.log('User connected:', socket.id);
 
-  socket.on('createRoom', (playerName, callback) => {
+  socket.on('createRoom', ({ playerName, allowedTypes, isStrictMode }, callback) => {
     const roomCode = generateRoomCode();
     rooms[roomCode] = {
       players: [{ id: socket.id, name: playerName, hand: [], isBossMode: false, isBot: false }],
-      deck: generateDeck(),
+      deck: generateDeck(allowedTypes),
       discardPile: [],
       turnIndex: 0,
       direction: 1,
@@ -86,7 +90,8 @@ io.on('connection', (socket) => {
       drawPenalty: 0,
       roundCounter: 0,
       playsThisRound: 0,
-      botDifficulty: 'middle'
+      botDifficulty: 'middle',
+      strictMode: isStrictMode || false
     };
     socket.join(roomCode);
     callback({ success: true, roomCode });
@@ -194,21 +199,23 @@ io.on('connection', (socket) => {
     let valid = false;
 
     if (playedCard.isSpecial) {
-       // Special cards don't use powerlevel, but they might need to match type?
-       // The prompt: "+2 card must match the current type". 
-       // We can enforce that playedCard.type === topCard.type
-       if (playedCard.type === topCard.type || topCard.isSpecial && topCard.name === playedCard.name) {
+       // Special cards: type must match topCard.type or topCard must be same special card
+       if (playedCard.type === topCard.type || (topCard.isSpecial && topCard.name === playedCard.name)) {
            valid = true;
        }
     } else {
-       // Normal card must have higher powerlevel
+       // Normal card must have higher powerlevel OR top card is special
        if (topCard.isSpecial) {
-           // If top card is special, usually you must match type or just play?
-           // Assuming any normal card of matching type can be played on a special card
-           // Or any card with power > 0? Let's say if top is special, any normal card of same type is valid
            if (playedCard.type === topCard.type) valid = true;
        } else {
            if (playedCard.powerlevel > topCard.powerlevel) valid = true;
+       }
+    }
+
+    // Strict Mode override check: MUST match type
+    if (room.strictMode && valid) {
+       if (playedCard.type !== topCard.type) {
+           valid = false;
        }
     }
 
@@ -447,7 +454,8 @@ function getPublicGameState(room) {
     turnIndex: room.turnIndex,
     direction: room.direction,
     drawPenalty: room.drawPenalty,
-    botDifficulty: room.botDifficulty || 'middle'
+    botDifficulty: room.botDifficulty || 'middle',
+    strictMode: room.strictMode || false
   };
 }
 

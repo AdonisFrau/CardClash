@@ -65,7 +65,13 @@ export const Card: React.FC<CardProps> = ({ card, onClick, style, layoutId, isOp
       <div className="absolute inset-0 opacity-40 z-10" style={{ backgroundColor: bgColor }}></div>
       
       {!card.isSpecial && card.img && (
-        <img src={card.img} alt={card.name} className="absolute inset-0 w-full h-full object-cover opacity-60 z-20 mix-blend-overlay" draggable={false} />
+        <img 
+           src={card.img} 
+           alt={card.name} 
+           onError={(e) => { e.currentTarget.src = '/img/Placeholder.png'; }}
+           className="absolute inset-0 w-full h-full object-cover opacity-60 z-20 mix-blend-overlay" 
+           draggable={false} 
+        />
       )}
       
       {card.isSpecial ? (

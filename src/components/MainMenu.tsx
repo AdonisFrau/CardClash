@@ -25,13 +25,13 @@ export const MainMenu: React.FC<MainMenuProps> = ({ onSelectMode }) => {
         
         <input 
           type="text" 
-          className="input-field w-full mb-8 text-center text-xl font-bold tracking-widest placeholder-gray-600 focus:bg-black" 
+          className="input-field w-full mb-6 text-center text-xl font-bold tracking-widest placeholder-gray-600 focus:bg-black" 
           placeholder="USERNAME" 
           value={name}
           onChange={e => setName(e.target.value)}
           onKeyDown={(e) => { if (e.key === 'Enter') handleJoin('multiplayer'); }}
         />
-        
+
         <div className="flex flex-col w-full gap-4">
           <button className="btn" onClick={() => handleJoin('multiplayer')}>
             Multiplayer

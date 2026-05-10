@@ -21,3 +21,10 @@
 - [x] Bot Module: 1-9s Play Delay & Auto-boss mode
 - [x] Bot Module: Lobby UI (Add/Remove Bots, Difficulty Selector)
 - [x] Block Game Start if Players < 2
+- [x] Fix CSS @import bug
+- [x] Add Image Fallback (Placeholder.png)
+- [x] Category Checkboxes in UI
+- [x] Backend Deck Generator filtering by allowedTypes
+- [ ] Relocate Checkboxes to Room Setup screen
+- [ ] Add Strict Mode Toggle
+- [ ] Backend Strict Mode Logic

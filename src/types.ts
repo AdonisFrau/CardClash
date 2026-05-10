@@ -22,4 +22,5 @@ export interface GameState {
   direction: number;
   drawPenalty: number;
   botDifficulty?: 'soft' | 'middle' | 'hard';
+  strictMode?: boolean;
 }

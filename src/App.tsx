@@ -3,13 +3,14 @@ import { io, Socket } from 'socket.io-client';
 import { MainMenu } from './components/MainMenu';
 import { Lobby } from './components/Lobby';
 import { GameBoard } from './components/GameBoard';
+import { RoomSetup } from './components/RoomSetup';
 import type { GameState } from './types';
 
 // For local testing, default to localhost:3001
 // In production, this should point to the production server URL
 const SERVER_URL = 'http://localhost:3001';
 
-type AppState = 'menu' | 'lobby' | 'game' | 'gameover';
+type AppState = 'menu' | 'setup' | 'lobby' | 'game' | 'gameover';
 
 function App() {
   const [socket, setSocket] = useState<Socket | null>(null);
@@ -21,6 +22,11 @@ function App() {
   const [gameState, setGameState] = useState<GameState | null>(null);
   const [winner, setWinner] = useState<string | null>(null);
   const [failPopup, setFailPopup] = useState<any>(null);
+  const [allowedTypes, setAllowedTypes] = useState<string[]>([
+    'Anime', 'Animals', 'Politicians', 'Countries', 'Celebrities', 'Cartoons', 'Other', 'Everything'
+  ]);
+  const [isStrictMode, setIsStrictMode] = useState(false);
+  const [setupMode, setSetupMode] = useState<'solo' | 'multiplayer' | null>(null);
 
   useEffect(() => {
     const newSocket = io(SERVER_URL);
@@ -70,26 +76,30 @@ function App() {
   const handleSelectMode = (mode: 'solo' | 'multiplayer', name: string) => {
     setPlayerName(name);
     if (mode === 'solo') {
-      socket?.emit('createRoom', name, (res: any) => {
-        if(res.success) {
-           setRoomCode(res.roomCode);
-           setIsHost(true);
-           setAppState('lobby');
-           socket?.emit('addBot', { roomCode: res.roomCode });
-           socket?.emit('addBot', { roomCode: res.roomCode });
-           socket?.emit('addBot', { roomCode: res.roomCode });
-        }
-      });
+      setSetupMode('solo');
+      setAppState('setup');
     } else {
       setAppState('lobby');
     }
   };
 
   const handleCreateRoom = () => {
-    socket?.emit('createRoom', playerName, (res: any) => {
-      if (res.success) {
-        setRoomCode(res.roomCode);
-        setIsHost(true);
+    // When clicking Create New Room in Lobby, go to setup
+    setSetupMode('multiplayer');
+    setAppState('setup');
+  };
+
+  const handleLaunchRoom = () => {
+    socket?.emit('createRoom', { playerName, allowedTypes, isStrictMode }, (res: any) => {
+      if(res.success) {
+         setRoomCode(res.roomCode);
+         setIsHost(true);
+         setAppState('lobby');
+         if (setupMode === 'solo') {
+           socket?.emit('addBot', { roomCode: res.roomCode });
+           socket?.emit('addBot', { roomCode: res.roomCode });
+           socket?.emit('addBot', { roomCode: res.roomCode });
+         }
       }
     });
   };
@@ -114,6 +124,17 @@ function App() {
 
   if (appState === 'menu') {
     return <MainMenu onSelectMode={handleSelectMode} />;
+  }
+
+  if (appState === 'setup') {
+    return <RoomSetup 
+             allowedTypes={allowedTypes} 
+             setAllowedTypes={setAllowedTypes}
+             isStrictMode={isStrictMode}
+             setIsStrictMode={setIsStrictMode}
+             onLaunch={handleLaunchRoom}
+             onCancel={() => setAppState(setupMode === 'solo' ? 'menu' : 'lobby')}
+           />;
   }
 
   if (appState === 'lobby') {
